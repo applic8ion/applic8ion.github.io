@@ -1,4 +1,4 @@
-- name: chirpystarter
+- name: chirpy-starter
   link: "https://github.com/cotes2020/chirpy-starter"
 - name: fontawesome
   link: "https://fontawesome.com"
@@ -6,6 +6,8 @@
   link: "https://github.com"
 - name: jekyll
   link: "https://jekyllrb.com"
+- name: jekyll-compose
+  link: "https://github.com/jekyll/jekyll-compose"
 - name: jekyllthemes
   link: "http://jekyllthemes.org"
 - name: Which Shell Am I Using? How Can I Switch?

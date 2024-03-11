@@ -92,7 +92,6 @@ bundle exec jekyll serve
 - [GitHub](https://github.com)
 - [jekyllrb](https://jekyllrb.com)
 - [Which Shell Am I Using? How Can I Switch?](https://www.moncefbelyamani.com/which-shell-am-i-using-how-can-i-switch/)
-- [jekyll-compose](https://github.com/jekyll/jekyll-compose)
 
 [jekyllthemes]: http://jekyllthemes.org
 [chirpystarter]: https://github.com/cotes2020/chirpy-starter
