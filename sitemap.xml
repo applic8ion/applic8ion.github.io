@@ -13,9 +13,9 @@ search: exclude
         <loc>{{ site.url }}{{ page.url }}</loc>
         <!-- <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod> -->
         {% if page.lastmod == null %}
-            <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+            <lastmod>{{ page.date | date: '%Y-%m-%d' }}</lastmod>
         {% else %}
-            <lastmod>{{ page.lastmod | date_to_xmlschema }}</lastmod>
+            <lastmod>{{ page.lastmod | date: '%Y-%m-%d' }}</lastmod>
         {% endif %}
         <!-- <changefreq>daily</changefreq> -->
         {% if page.sitemap.changefreq == null %}
@@ -37,9 +37,9 @@ search: exclude
         <loc>{{ site.url }}{{ post.url }}</loc>
         <!-- <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod> -->
         {% if post.lastmod == null %}
-            <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+            <lastmod>{{ post.date | date: '%Y-%m-%d' }}</lastmod>
         {% else %}
-            <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+            <lastmod>{{ post.lastmod | date: '%Y-%m-%d' }}</lastmod>
         {% endif %}
         <!-- <changefreq>daily</changefreq> -->
         {% if post.sitemap.changefreq == null %}
