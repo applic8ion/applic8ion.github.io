@@ -1,9 +1,10 @@
 ---
 layout: post
-title: GitHub Blog (github.io) 개설 Guide
+title: "[GitHub Blog] 개설 Guide"
 date: 2024-03-09 23:14 -0800
-environment: macOS
+categories: [BLOG]
 tags: GitHub blog
+environment: macOS
 ---
 > {{ page.environment }} 기반 guide이므로, 다른 platform에서는 절차가 다를 수 있다.
 {: .prompt-info }

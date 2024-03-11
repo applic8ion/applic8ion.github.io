@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GitHub blog 개설 이유
+title: "[GitHub Blog] 개설 이유"
 date: 2024-03-09 22:50 -0800
 categories: [BLOG]
 tags: GitHub blog
