@@ -6,15 +6,12 @@ categories: [BLOG]
 tags: GitHub blog
 ---
 # Why GitHub?
-내 개발 경험을 기록하기 위한 블로그를 만들고 싶었다.
+개발 경험을 기록하기 위한 blog를 만들고 싶었다.
 
-특정 플랫폼에 가입하고 글 작성하면 되는 것이라고 생각했지만 <a href="https://github.com">**GitHub**</a>는 달랐다.
+[GitHub](https://github.com)를 선택한 이유는 다음과 같다.
 
-<a href="https://github.com">**GitHub**</a>를 선택한 이유는 다음과 같다.
-
-<ul>
-    <li>어려운 관리</li>
-    <li>Git push를 통한 블로그 업데이트</li>
-    <li>browser 불필요</li>
-    <li>HTML, CSS 기반 높은 자유도</li>
-</ul>
+- [x] 어려운 난이도
+- [x] `Git push`를 통한 blog update
+- [x] browser 불필요
+- [x] `HTML`, `CSS`, `MD` 기반 높은 자유도
+- [x] local file로 관리

@@ -1,0 +1,8 @@
+- name: Bundler
+  description: "다른 환경에서 동일한 버전의 `jekyll` 및 plugin setup을 위해 사용. `bundle install` command를 통해 `Gemfile`에 저장된 gem 설치. `npm install`과 유사."
+- name: Gemfile
+  description: "web site에 사용되는 gem 목록이 저장된 파일. root folder에 존재. `node.js`의 `package.json`과 유사."
+- name: Gems
+  description: "`Ruby` 프로젝트를 packaging 및 공유."
+- name: Jekyll
+  description: "`Ruby` 기반 static web site generator."
