@@ -97,6 +97,5 @@ bundle exec jekyll serve
 [jekyllthemes]: http://jekyllthemes.org
 [chirpystarter]: https://github.com/cotes2020/chirpy-starter
 [github]: https://github.com
-[chirpystarter]: https://github.com/cotes2020/chirpy-starter
 [jekyllrequirements]: https://jekyllrb.com/docs/installation/#requirements
 [whichshellamiusinghowcaniswitch]: https://www.moncefbelyamani.com/which-shell-am-i-using-how-can-i-switch/
