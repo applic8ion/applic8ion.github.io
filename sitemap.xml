@@ -8,7 +8,7 @@ search: exclude
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    {% for page in site.pages %}
+    <!-- {% for page in site.pages %}
     <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
         {% if page.lastmod == null %}
@@ -27,7 +27,7 @@ search: exclude
             <priority>{{ page.sitemap.priority }}</priority>
         {% endif %}
     </url>
-    {% endfor %}
+    {% endfor %} -->
 
     {% for post in site.posts %}
     <url>
