@@ -1,7 +1,9 @@
 - name: chirpy-starter
   link: "https://github.com/cotes2020/chirpy-starter"
 - name: Error in jekyll chirpy deployment
-  link: "https://jebearssica.github.io/posts/error-in-jekyll-chirpy-deployment/"
+  link: "https://jebearssica.github.io/posts/error-in-jekyll-chirpy-deployment"
+- name: Daum Search Register
+  link: "https://register.search.daum.net/index.daum"
 - name: fontawesome
   link: "https://fontawesome.com"
 - name: GitHub
