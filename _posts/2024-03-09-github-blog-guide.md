@@ -9,14 +9,22 @@ tags: GitHub blog
 {: .prompt-info }
 
 ## Setup GitHub Repository
-> 다른 블로그에서는 [Jekyll Themes][jekyllthemes]에서 다운받아서 덮어씌우라고 하는데, build fail이 발생해서 [chirpy-starter][chirpystarter]를 통해 진행했다.
+> 다른 블로그에서는 theme를 적용하려면 [Jekyll Themes][jekyllthemes]에서 다운받아서 덮어씌우라고 하는데, build fail이 발생해서 [chirpy-starter][chirpystarter]를 통해 진행했다.
 {: .prompt-info }
 
 1. [GitHub][github]에서 계정을 생성한다.
+
 2. [chirpy-starter][chirpystarter]에 접속한다.
+
 3. 우측 상단 `Use this template` > `Create a new repository`를 클릭한다.
+
 4. `Repository name` input에 `[USER_NAME].github.io`를 입력한다. `[USER_NAME]`은 자신의 `GitHub` 계정 ID이다.
+
 5. `Create repository` 버튼을 클릭한다.
+
+6. `https://github.com/[USER_NAME]/[USER_NAME].github.io`에 접속한 후 `Settings` tab을 클릭한다.
+
+7. `Pages` tab을 클릭하고 `Build and deployment`의 `Source` combobox를 클릭하여 `GitHub Actions`를 선택한다.
 
 ## Setup Local Environment
 [Jekyll requirements][jekyllrequirements]에서 platform에 따라 설정한다.
@@ -76,10 +84,9 @@ bundle exec jekyll serve
 
 13. `Visual Studio Code`의 `Source Control` tab을 클릭하고 `Stage All Changes`를 클릭한다.
 
-14. Commit Message를 입력하고 `Commit`을 클릭한 후,
-13. 
+14. Commit Message를 입력하고 `Commit`을 클릭한 후, `Sync Changes`를 클릭한다.
 
-    
+15. `https://[USER_NAME].github.io`에 정상적으로 접속되는지 확인한다. `https://github.com/[USER_NAME]/[USER_NAME].github.io`에 접속한 후 `Actions` tab에서 build 및 deploy 상태를 확인할 수 있다.
 
 # References
 - [GitHub](https://github.com)
