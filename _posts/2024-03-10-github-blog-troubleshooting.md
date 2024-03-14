@@ -7,7 +7,29 @@ tags: GitHub blog troubleshooting
 ---
 # GitHub Actions Build Erros
 ## xxx is not an HTTPS link
-`https`가 아닌 url이 존재할 경우 발생한다. `.github/workflows/pages-deploy.yml`{: .filepath}에서 `Test site` 부분에 `--enforce-https=false`를 추가한다. 문자열이 끊어지지 않도록 마지막에 `\` 추가에 유의한다.
+`https`가 아닌 url이 존재할 경우, `GitHub`의 `Actions` tab에서 다음 오류가 발생한다. 
+```text
+Run bundle exec htmlproofer _site \
+Running 3 checks (Scripts, Links, Images) in ["_site"] on *.html files...
+
+
+Checking 19 internal links
+Checking internal link hashes in 1 file
+Ran on 15 files!
+
+
+For the Links check, the following failures were found:
+
+* At _site/posts/github-blog-guide/index.html:1:
+
+  http://jekyllthemes.org is not an HTTPS link
+
+
+HTML-Proofer found 1 failure!
+Error: Process completed with exit code 1.
+```
+
+`.github/workflows/pages-deploy.yml`{: .filepath}에서 `Test site` 부분에 `--enforce-https=false`를 추가한다. 문자열이 끊어지지 않도록 마지막에 `\` 추가에 유의한다.
 ```yml
 - name: Test site
     run: |

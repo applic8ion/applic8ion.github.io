@@ -16,7 +16,7 @@ timezone:
 
 title: Troubleshooter # the main title
 
-tagline: The blog for developers # it will display as the sub-title
+tagline: The blog for developers. The philosophy is based on troubleshooting, minimalism, and experience. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A blog for developers with a minimalist and compliant background at my level.
