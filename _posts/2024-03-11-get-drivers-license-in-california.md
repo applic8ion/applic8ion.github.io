@@ -45,7 +45,7 @@ tags: US DMV DriversLicense
 4. 차례가 되면 창구에서 서류를 제출 및 $45를 결제한다. (`SSN` 제출도 가능하다. Reantal Agreement를 제출하지 않았다.)
 5. 사진을 촬영한다.
 6. `Knowledge Test`를 응시한다. (불합격 시 2회 재응시 가능하다.)
-7. 합격 시 발행 서류는 `Behind-the-Wheel Drive Test`를 응시할 때까지 반드시 보관해야 한다. (운전면허소지자 동승 하 운전 permit에 해당한다.)
+7. 합격 시 발행되는 `interim license` 는 운전 면허 소지자 동승 하 운전 permit에 해당한다. `Behind-the-Wheel Drive Test`를 응시할 때까지 반드시 보관해야 한다.
 
 ## 4. Behind-the-Wheel Drive Test
 다음에 이어서 작성...
