@@ -8,10 +8,10 @@ tags: US LosAngeles Marathon Health
 
 ## Registration for 2024 Los Angeles Marathon
 
-![Desktop View](/assets/img/2024-03-22-los-angeles-marathon/registration_confirmation_for_2024.png){: width="500" }
+![Desktop View](/assets/img/2024-03-22-los-angeles-marathon/registration_confirmation_for_2024.png){: .shadow .rounded-10 w="500" }
 _marathon registration confirmation email_
 
-12/15/2024에 등록했다. marathon 당일에 거주지가 불명확할 것 같아서 `refundable`로 예약했다. `refundable`은 환불 가능한 티켓이지만, 추가 요금이 든다.
+12/15/2024에 등록했다. `refundable`은 환불 가능한 티켓이지만, 추가 요금이 든다.
 
 | Type                      |    Price | Processing fee |    Total |
 | :------------------------ | -------: | -------------: | -------: |
@@ -21,7 +21,7 @@ _marathon registration confirmation email_
 
 ## Training
 
-![Desktop View](/assets/img/2024-03-22-los-angeles-marathon/training_schedule.jpeg){: width="500" }
+![Desktop View](/assets/img/2024-03-22-los-angeles-marathon/training_schedule.jpeg){: .shadow .rounded-10 h="500" }
 _marathon training schedule_
 
 평일에는 동네 공원에서 훈련했다. 주말 장거리 훈련 장소는 다음과 같다.
@@ -46,7 +46,7 @@ Schedule에 따라 훈련을 했지만 부상을 당했다. `Hill Strike` 및 �
 
 ## 2023 Dino Dash
 
-![Desktop View](/assets/img/2024-03-22-los-angeles-marathon/dino_dash.jpg){: width="500" }
+![Desktop View](/assets/img/2024-03-22-los-angeles-marathon/dino_dash.jpg){: .shadow .rounded-10 h="500" }
 _finishing the dino dash_
 
 2023 `Dino Dash` 10 Km에 참가했다. 부상이 있는 상태에서 전날 동일한 코스를 연습했었다. 이렇게 준비하면 안된다는 것을 깨달았다.
@@ -80,7 +80,7 @@ _finishing the dino dash_
 
 ## Running
 
-![Desktop View](/assets/img/2024-03-22-los-angeles-marathon/running_a_marathon.jpg){: width="500" }
+![Desktop View](/assets/img/2024-03-22-los-angeles-marathon/running_a_marathon.jpg){: .shadow .rounded-10 w="500" }
 _running a marathon_
 
 `energy gel`을 먹고 11:30/mi 페이스로 달렸다. 초반에는 컨디션이 괜찮았다. 이내 왼쪽 무릎에 통증이 느껴졌지만 몸의 무게중심을 전방 위쪽에 두라는 말을 상기하며 달리니, 통증이 잘 느껴지지 않았다. 
@@ -93,7 +93,7 @@ Water station에서 물을 주는대로 받아마셨더니 8 mile 지점에서 �
 
 ## Finishing the race
 
-![Desktop View](/assets/img/2024-03-22-los-angeles-marathon/finishing_the_race.jpg){: width="500" }
+![Desktop View](/assets/img/2024-03-22-los-angeles-marathon/finishing_the_race.jpg){: .shadow .rounded-10 w="500" }
 _finishing the marathon_
 
 `Strava`로 측정한 평균 pace는 13:05/mi이었다. 비록 하위권 기록이었지만 아픈 몸을 이끌고 완주한 자신에게 보람을 느꼈다. 

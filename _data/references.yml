@@ -16,6 +16,8 @@
   link: "https://github.com/jekyll/jekyll-compose"
 - name: jekyllthemes
   link: "http://jekyllthemes.org"
+- name: mermaid
+  link: "https://github.com/mermaid-js/mermaid"
 - name: Naver Search Advisor
   link: "https://searchadvisor.naver.com/"
 - name: Which Shell Am I Using? How Can I Switch?

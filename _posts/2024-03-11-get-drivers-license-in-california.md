@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[US Life] Get Driver's License in California"
+title: "[US Life] Get Driver's License in California [1/2]"
 date: 2024-03-11 20:47 -0700
 categories: [United States, Drivers License]
 tags: US DMV DriversLicense
@@ -48,7 +48,7 @@ tags: US DMV DriversLicense
 7. 합격 시 발행되는 `interim license` 는 운전 면허 소지자 동승 하 운전 permit에 해당한다. `Behind-the-Wheel Drive Test`를 응시할 때까지 반드시 보관해야 한다.
 
 ## 4. Behind-the-Wheel Drive Test
-다음에 이어서 작성...
+다음 post에 이어서 작성...
 
 [geti94]: https://i94.cbp.dhs.gov/I94/#/home
 [applyssn]: https://www.ssa.gov/number-card/request-number-first-time
