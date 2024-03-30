@@ -4,6 +4,8 @@ title: "[US Life] Los Angeles Marathon"
 date: 2024-03-22 22:40 -0700
 categories: [United States, Marathon]
 tags: [US, Los Angeles, Marathon, Health]
+image:
+  path: /assets/img/2024-03-22-los-angeles-marathon/finishing_the_race.jpg
 ---
 
 ## Registration for 2024 Los Angeles Marathon

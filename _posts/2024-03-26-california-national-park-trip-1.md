@@ -5,6 +5,8 @@ date: 2024-03-26 19:12 -0700
 categories: [United States, Trip]
 tags: [US, Las Vegas, Zion Canyon, Bryce Canyon]
 mermaid: true
+image:
+  path: /assets/img/2024-03-26-california-national-park-trip-1/zion_canyon_somewhere.JPG
 ---
 
 ## Itineraries

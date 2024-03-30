@@ -5,6 +5,8 @@ date: 2024-03-29 23:36 -0700
 categories: [United States, Trip]
 tags: [US, Bryce Canyon, Monument Valley]
 mermaid: true
+image:
+  path: /assets/img/2024-03-29-california-national-park-trip-2/bryce_canyon_1.JPG
 ---
 
 ## Itineraries
