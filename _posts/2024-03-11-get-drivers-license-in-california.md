@@ -3,15 +3,18 @@ layout: post
 title: "[US Life] Get Driver's License in California [1/2]"
 date: 2024-03-11 20:47 -0700
 categories: [United States, Drivers License]
-tags: US DMV DriversLicense
+tags: [US, DMV, Drivers License]
 ---
+
 # 캘리포니아에서 운전면허 취득하기
 
 ## 1. Get a Social Security Number (SSN)
+
 > I-94가 확인되어야 진행할 수 있다. 입국 후 하루 이상 걸릴 수 있다.
-{: .prompt-info }
+> {: .prompt-info }
 
 ### Prerequisites
+
 - [x] email
 - [x] I-94
 - [x] U.S. Phone number
@@ -24,12 +27,14 @@ tags: US DMV DriversLicense
 5. 2주 뒤 신청한 주소지에서 수령할 수 있다. (더 걸릴 수 있다.)
 
 ## 2. Apply for a REAL ID
+
 > Social Security Number (SSN)와 US 전화번호가 없으면 진행할 수 없다.
-{: .prompt-info }
+> {: .prompt-info }
 
 [DMV][applylicense]에서 `Start Application`을 click하여 신청할 수 있다. 본인 주소지 증명 서류를 선택해야 한다. 나는 다음과 같이 선택했다.
 
 ### Documents
+
 - [x] Unexpired Foreign Passport with valid U.S. Visa and approved I-94 form (passport)
 - [x] I-94 form
 - [x] U.S. Visa (passport)
@@ -37,6 +42,7 @@ tags: US DMV DriversLicense
 - [x] Rental/Lease Agreement (Rental Agreement)
 
 ## 3. Submit Docs and Take a Knowledge Test
+
 `Knowledge Test`는 필기 시험을 의미하며 `Computer-Based Testing CBT`이다. Remote로 응시할 수도 있지만, 주소지 증명 서류 제출 겸 `DMV`에서 응시하는 편이 낫다. [DMV][dmvappointment]에서는 `Knowledge Test` 예약을 찾지 못해서 Walk-in하는 법을 소개한다.
 
 1. 가까운 `DMV`에 방문한다. (요일 별 Open 시간이 다를 수 있으며, open 시 방문하면 대기 시간이 짧다.)
@@ -48,6 +54,7 @@ tags: US DMV DriversLicense
 7. 합격 시 발행되는 `interim license` 는 운전 면허 소지자 동승 하 운전 permit에 해당한다. `Behind-the-Wheel Drive Test`를 응시할 때까지 반드시 보관해야 한다.
 
 ## 4. Behind-the-Wheel Drive Test
+
 다음 post에 이어서 작성...
 
 [geti94]: https://i94.cbp.dhs.gov/I94/#/home

@@ -3,7 +3,7 @@ layout: post
 title: "[US Life] Los Angeles Marathon"
 date: 2024-03-22 22:40 -0700
 categories: [United States, Marathon]
-tags: US LosAngeles Marathon Health
+tags: [US, Los Angeles, Marathon, Health]
 ---
 
 ## Registration for 2024 Los Angeles Marathon
@@ -83,11 +83,11 @@ _finishing the dino dash_
 ![Desktop View](/assets/img/2024-03-22-los-angeles-marathon/running_a_marathon.jpg){: .shadow .rounded-10 w="500" }
 _running a marathon_
 
-`energy gel`을 먹고 11:30/mi 페이스로 달렸다. 초반에는 컨디션이 괜찮았다. 이내 왼쪽 무릎에 통증이 느껴졌지만 몸의 무게중심을 전방 위쪽에 두라는 말을 상기하며 달리니, 통증이 잘 느껴지지 않았다. 
+`energy gel`을 먹고 11:30/mi 페이스로 달렸다. 초반에는 컨디션이 괜찮았다. 이내 왼쪽 무릎에 통증이 느껴졌지만 몸의 무게중심을 전방 위쪽에 두라는 말을 상기하며 달리니, 통증이 잘 느껴지지 않았다.
 
-Water station에서 물을 주는대로 받아마셨더니 8 mile 지점에서 화장실을 들렀다. 매 mile마다 짤은 영상으로 인증샷을 찍으면서 갔는데 10 mile 넘어가니 찍을 힘조차 없게 되었다. 
+Water station에서 물을 주는대로 받아마셨더니 8 mile 지점에서 화장실을 들렀다. 매 mile마다 짤은 영상으로 인증샷을 찍으면서 갔는데 10 mile 넘어가니 찍을 힘조차 없게 되었다.
 
-장경인대는 괜찮았지만 안아프던 허벅지가 아프기 시작했다. 허벅지 앞뒤로 근육이 뭉치는 느낌이 들었고, 그럴 때마다 걷기와 달리기를 반복했다. 걸으면서 심박수를 낮췄지만 달리면 금세 올라갔다. 
+장경인대는 괜찮았지만 안아프던 허벅지가 아프기 시작했다. 허벅지 앞뒤로 근육이 뭉치는 느낌이 들었고, 그럴 때마다 걷기와 달리기를 반복했다. 걸으면서 심박수를 낮췄지만 달리면 금세 올라갔다.
 
 응원해주는 관중들이 주는 음식들 오렌지, 바나나 등을 열심히 먹으면서 달렸다. 20 mile 지점에서 `Advil`을 먹었지만 통증이 나아진다는 느낌이 들지 않았다. 우여곡절 끝에 나는 spurt를 해서 `marathon`을 완주했다.
 
@@ -96,7 +96,7 @@ Water station에서 물을 주는대로 받아마셨더니 8 mile 지점에서 �
 ![Desktop View](/assets/img/2024-03-22-los-angeles-marathon/finishing_the_race.jpg){: .shadow .rounded-10 w="500" }
 _finishing the marathon_
 
-`Strava`로 측정한 평균 pace는 13:05/mi이었다. 비록 하위권 기록이었지만 아픈 몸을 이끌고 완주한 자신에게 보람을 느꼈다. 
+`Strava`로 측정한 평균 pace는 13:05/mi이었다. 비록 하위권 기록이었지만 아픈 몸을 이끌고 완주한 자신에게 보람을 느꼈다.
 
 나보다 훨씬 신체적 조건이 어려운 사람들도 완주해내는 모습을 보면서 이 세상에 훌륭한 사람들 많다는 것에 대단함을 느꼈고, 일면식도 없는 사람들이 음식을 주고 응원해주는 모습을 보면서 인류애를 느꼈다.
 

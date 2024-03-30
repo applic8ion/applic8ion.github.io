@@ -3,9 +3,11 @@ layout: post
 title: "[GitHub Blog] 개설 이유"
 date: 2024-03-09 22:50 -0800
 categories: [BLOG]
-tags: GitHub blog
+tags: [GitHub, blog]
 ---
+
 # Why GitHub?
+
 개발 경험을 기록하기 위한 blog를 만들고 싶었다.
 
 [GitHub](https://github.com)를 선택한 이유는 다음과 같다.
