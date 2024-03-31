@@ -32,9 +32,9 @@ to Horseshoe bend: d3-1, 07:00, 08:20
 Horseshoe bend: d3-2, after d3-1, 08:40
 to Antelope Canyon: d3-3, after d3-2, 09:00
 Antelope Canyon: d3-4, after d3-3, 10:20
-to Grand Canyon South Rim: d3-5, after d3-4, 12:10
-Grand Canyon South Rim: d3-6, after d3-5, 15:30
-Grand Canyon Village: d3-7, after d3-6, 17:30
+to Grand Canyon Desert View: d3-5, after d3-4, 12:10
+Grand Canyon Desert View: d3-6, after d3-5, 15:30
+Grand Canyon Visitor Center & Village: d3-7, after d3-6, 17:30
 to Las Vegas Accom.: d3-8, after d3-7, 22:10
 section Day 4
 Gorden Ramsay Burger: d4-1, 10:40, 11:40
@@ -44,6 +44,9 @@ Hershey's Chocolate World: d4-4, after d4-3, 14:20
 Bellagio: d4-5, after d4-4, 15:50
 to Irvine: d4-6, after d4-5, 19:30
 ```
+
+![Desktop View](/assets/img/2024-03-26-california-national-park-trip-1/travel_routes.png){: .shadow .rounded-10 h="500" }
+_Travel Routes_
 
 ## What to Pack for Travel
 
@@ -119,9 +122,9 @@ _Zion Canyon Souvenir shop_
 
 산으로 둘러쌓인 절경을 감상할 수 있는 첫 번째 `National Park`이다.
 
-게이트 통과 시 [National Park Interagency Pass][nationalparkpass]를 구입해서 입장했다.
+게이트 통과 시 [National Park Interagency Annual Pass][nationalparkpass]를 구입해서 입장했다.
 
-[링크][zioncanyontrail]를 통해 trail 정보를 확인할 수 있다. 1번 지점에 주차하고 무료 셔틀버스를 통해 각 정류장을 이동할 수 있다.
+[link][zioncanyontrail]를 통해 trail 정보를 확인할 수 있다. 1번 지점에 주차하고 무료 셔틀버스를 통해 각 정류장을 이동할 수 있다.
 
 5번 `Zion Lodge`에서는 숙박이 가능하다.
 
@@ -144,6 +147,10 @@ to Accom.: active, d1-4, after d1-3, 20:00
 
 ![Desktop View](/assets/img/2024-03-26-california-national-park-trip-1/bryce_country_cabin.JPG){: .shadow .rounded-10 h="500" }
 _Bryce Country Cabin_
+
+`Zion Canyon`에서 `Bryce Canyon`으로 이동하는 도로는 상당히 위험했다.
+
+산을 넘어가는 데, 도로 옆이 절벽이고, 조명이 없는 아주 좁은 ternal을 지나야 한다.
 
 다음 일정을 위해 `Bryce Canyon` 인근에 위치한 [Bryce Country Cabin][brycecountrycabin]의 `Villa`에 묵었다.
 
