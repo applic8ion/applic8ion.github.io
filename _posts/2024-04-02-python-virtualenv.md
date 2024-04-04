@@ -19,23 +19,23 @@ image:
 ### macOS
 
 ```text
-$ python3 -m venv [env name]
+python3 -m venv [env name]
 ```
 
 `[env name]` 부분에 `virtualenv`의 이름을 작성한다.
 
 ## Activation
-
+3
 ### macOS
 
 ```text
-$ source [env name]/bin/activate
+source [env name]/bin/activate
 ```
 
 ## Module Installation from requirements.txt
 
 ```text
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 [python-venv]: https://docs.python.org/3/library/venv.html

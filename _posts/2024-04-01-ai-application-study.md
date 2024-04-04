@@ -6,14 +6,12 @@ categories: [AI, Study]
 tags: [AI, GPT, LangChain]
 mermaid: true
 image:
-  path: /assets/img/2024-04-01-ai-application-study/hero.webp
+  path: /assets/img/2024-04-01-ai-application-study/ai_parrot.JPG
 ---
 
 이미지 출처: [Nomad Coders][nomadcoders-fullstack-gpt]
 
 ## Requirements
-
-[강의][nomadcoders-fullstack-gpt]를 기반으로 study한 내용을 요약한다.
 
 - [OpenAI][platform-openai]: ChatGPT 관리
 - [LangChain][langchain]: Large Language Model (LLM) 기반 application 개발을 위한 framework
@@ -33,6 +31,11 @@ image:
 ## Jupyter Notebook
 
 `.ipynb` 확장자를 가진 파일을 생성한다.
+
+## Call LLM
+
+- Large Language Model (LLM): 언어를 이해하고 생성하는 데 사용되는 대규모 인공지능 모델
+- Chat Model: 대화형으로 설계된 모델
 
 [nomadcoders-fullstack-gpt]: https://nomadcoders.co/fullstack-gpt
 [platform-openai]: https://platform.openai.com
