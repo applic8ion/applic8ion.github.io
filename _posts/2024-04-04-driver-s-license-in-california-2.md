@@ -12,11 +12,17 @@ image:
 
 ## Make an appointment
 
-1) [DMV][dmv] > [Appointments][dmv-appointments] 에 접속한다.
+1. [DMV][dmv] > [Appointments][dmv-appointments] 에 접속한다.
 
-![Desktop View](/assets/img/2024-04-04-driver-s-license-in-california-2/appointments.png){: .shadow .rounded-10 w="500" }
-_Appointments page_
-2) `Automobile` 을 선택하고 `Driver's License or Permit Number`, `Driver's License or Permit Number`를 입력한 후, `Make an Appointment`를 클릭한다. (`Driver's License or Permit Number`는 `Knowledge Test` 합격 후 발급받은 `Instruction Permit`에 있다.)
+2. `Automobile` 을 선택하고 `Driver's License or Permit Number`, `Driver's License or Permit Number`를 입력한 후, `Make an Appointment`를 클릭한다. (`Driver's License or Permit Number`는 `Knowledge Test` 합격 후 발급받은 `Instruction Permit`에 있다.)
+   ![Desktop View](/assets/img/2024-04-04-driver-s-license-in-california-2/appointments.png){: .shadow .rounded-10 w="500" }
+   _Appointments page_
+
+3. 응시를 원하는 `DMV`를 검색하고, 날짜와 시간을 선택하여 예약한다.
+
+## Pracice
+
+다음 항목을 시험한다.
 
 [dmv]: https://www.dmv.ca.gov/portal/
 [dmv-appointments]: https://www.dmv.ca.gov/portal/appointments/select-appointment-type
