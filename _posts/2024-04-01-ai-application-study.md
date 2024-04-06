@@ -4,7 +4,7 @@ title: "[AI] AI Application Study"
 date: 2024-04-01 23:42 -0700
 categories: [AI, Study]
 tags: [AI, GPT, LangChain]
-mermaid: true
+pin: true
 image:
   path: /assets/img/2024-04-01-ai-application-study/ai_parrot.JPG
 ---
@@ -137,6 +137,57 @@ prompt = template.format_messages(
 
 chat.predict_messages(prompt)
 ```
+
+## Output Parser and LangChain Expression Language (LCEL)
+
+### Output Parser
+
+AIMessage를 `python` `list` 형태로 획득할 수 있는 예제이다.
+
+```python
+from langchain.chat_models import ChatOpenAI
+from langchain.prompts import ChatPromptTemplate
+from langchain.schema import BaseOutputParser
+
+chat = ChatOpenAI(temperature=0.1)
+
+class CommaOutputParser(BaseOutputParser):
+    def parse(self, text):
+        items = text.strip().split(",")
+        return list(map(str.strip, items))
+    
+template = ChatPromptTemplate.from_messages([
+    ("system", "You are a list generating machine. Everything you are asked will be answered with a comma separated list of max {max_items} in lowercase. Do NOT reply with anything else."),
+    ("human", "{question}")
+])
+
+prompt = template.format_messages(
+    max_items=10,
+    question="What are the planets?"
+)
+
+result = chat.predict_messages(prompt)
+
+p = CommaOutputParser()
+
+p.parse(result.content)
+# ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune']
+```
+
+### LangChain Expression Language (LCEL)
+
+`LCEL`을 이용해서 `Output Parser` 예제 코드를 재활용 하여 아래와 같이 단순화할 수 있다.
+
+```python
+chain = template | chat | CommaOutputParser()
+
+chain.invoke({
+    "max_items": 5,
+    "question": "What are the pokemons?"
+})
+# ['pikachu', 'charmander', 'bulbasaur', 'squirtle', 'jigglypuff']
+```
+
 
 [nomadcoders-fullstack-gpt]: https://nomadcoders.co/fullstack-gpt
 [platform-openai]: https://platform.openai.com
