@@ -25,7 +25,7 @@ python3 -m venv [env name]
 `[env name]` 부분에 `virtualenv`의 이름을 작성한다.
 
 ## Activation
-3
+
 ### macOS
 
 ```text
