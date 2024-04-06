@@ -155,7 +155,7 @@ class CommaOutputParser(BaseOutputParser):
     def parse(self, text):
         items = text.strip().split(",")
         return list(map(str.strip, items))
-    
+
 template = ChatPromptTemplate.from_messages([
     ("system", "You are a list generating machine. Everything you are asked will be answered with a comma separated list of max {max_items} in lowercase. Do NOT reply with anything else."),
     ("human", "{question}")
@@ -188,6 +188,62 @@ chain.invoke({
 # ['pikachu', 'charmander', 'bulbasaur', 'squirtle', 'jigglypuff']
 ```
 
+위 예제에서 `chain`은 [LangChain Interface][langchain-interface]의 component 중 다음을 이용한 것이다.
+
+- [x] Prompt (template)
+- [x] ChatModel (chat)
+- [ ] LLM
+- [x] OutputParser (CommaOutputParser)
+- [ ] Retriever
+- [ ] Tool
+
+`invoke` 함수 실행 시 각 component가 순차적으로 실행된다.
+
+1. `Prompt` component는 invoke 함수의 매개변수로 입력한 Dictionary를 input 받아 `template` 변수를 통해 처리 후 output된 PromptValue를 `ChatModel` component에 전달한다.
+2. `ChatModel` component는 PromptValue를 input 받아 `chat` 변수를 통해 처리 후 output된 ChatMessage를 `OutputParser` component에 전달한다.
+3. `OutputParser` component는 ChatModel output을 input 받아 `CommaOutputParser` 변수를 통해 처리 후 output한다. (output type은 `Depends on the parser`이다.)
+
+## Chaining Chains
+
+```python
+from langchain.chat_models import ChatOpenAI
+from langchain.prompts import ChatPromptTemplate
+from langchain.callbacks import StreamingStdOutCallbackHandler
+
+chat = ChatOpenAI(
+    temperature=0.1,
+    streaming=True, # Check the chatmodel response creation process
+    callbacks=[StreamingStdOutCallbackHandler()] # Callback for streaming
+)
+
+chef_prompt = ChatPromptTemplate.from_messages([
+    ("system", "You are a world-class international chef. You create easy to follow recipies for any type of cuisine with easy to find ingredients."),
+    ("human", "I want to cook {cuisine} food.")
+])
+
+chef_chain = chef_prompt | chat
+
+veg_chef_prompt = ChatPromptTemplate.from_messages([
+    ("system", "You are a vegetarian chef specialized on making traditional recipies vegetarian. You find alternative ingredients and explain their preparation. You don't radically modify the recipe. If there is no alternative for a food just say you don't know how to replace it."),
+    ("human", "{recipe}")
+])
+
+veg_chain = veg_chef_prompt | chat
+
+final_chain = {"recipe": chef_chain} | veg_chain # Runnable map
+
+final_chain.invoke({
+    "cuisine": "indian"
+})
+```
+
+위 예제를 통해 chain간 연결할 수 있다.
+
+chef_chain의 output이 "recipe" key를 가진 dictionay의 value로 할당되고 veg_chain의 input으로 전달된다.
+
+## LangChain Modules
+
+[LangChain Module][langchain-modules]에서 module을 확인할 수 있다.
 
 [nomadcoders-fullstack-gpt]: https://nomadcoders.co/fullstack-gpt
 [platform-openai]: https://platform.openai.com
@@ -200,3 +256,5 @@ chain.invoke({
 [openai-models]: https://platform.openai.com/docs/models
 [openai-deprecations]: https://platform.openai.com/docs/deprecations
 [openai-pricing]: https://openai.com/pricing
+[langchain-interface]: https://python.langchain.com/docs/expression_language/interface/
+[langchain-modules]: https://python.langchain.com/docs/modules/
