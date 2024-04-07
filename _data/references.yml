@@ -16,6 +16,8 @@
   link: "https://github.com/jekyll/jekyll-compose"
 - name: jekyllthemes
   link: "http://jekyllthemes.org"
+- name: LangChain
+  link: "https://www.langchain.com"
 - name: mermaid
   link: "https://github.com/mermaid-js/mermaid"
 - name: Naver Search Advisor

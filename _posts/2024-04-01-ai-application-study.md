@@ -4,6 +4,7 @@ title: "[AI] AI Application Study"
 date: 2024-04-01 23:42 -0700
 categories: [AI, Study]
 tags: [AI, GPT, LangChain]
+mermaid: true
 pin: true
 image:
   path: /assets/img/2024-04-01-ai-application-study/ai_parrot.JPG
@@ -107,6 +108,10 @@ from langchain.prompts import PromptTemplate
 template = PromptTemplate.from_template(
     "What is the distance between {country_a} and {country_b}"
 )
+# template = PromptTemplate(
+#     template="What is the distance between {country_a} and {country_b}",
+#     input_variables=["country_a", "country_b"]
+# )
 
 prompt = template.format(country_a="Maxico", country_b="Thailand")
 
@@ -199,6 +204,23 @@ chain.invoke({
 
 `invoke` 함수 실행 시 각 component가 순차적으로 실행된다.
 
+```mermaid
+---
+title: LangChain Runnable Interface Sequence
+---
+flowchart LR;
+prompt[Prompt]
+start([Start])
+chatModel[ChatModel]
+outputParser[OutputParser]
+endFlow([End])
+
+start--Dictionary-->prompt;
+prompt--PromptValue-->chatModel;
+chatModel--ChatMessage-->outputParser;
+outputParser-->|Depends on the parser|endFlow;
+```
+
 1. `Prompt` component는 invoke 함수의 매개변수로 입력한 Dictionary를 input 받아 `template` 변수를 통해 처리 후 output된 PromptValue를 `ChatModel` component에 전달한다.
 2. `ChatModel` component는 PromptValue를 input 받아 `chat` 변수를 통해 처리 후 output된 ChatMessage를 `OutputParser` component에 전달한다.
 3. `OutputParser` component는 ChatModel output을 input 받아 `CommaOutputParser` 변수를 통해 처리 후 output한다. (output type은 `Depends on the parser`이다.)
@@ -244,6 +266,10 @@ chef_chain의 output이 "recipe" key를 가진 dictionay의 value로 할당되�
 ## LangChain Modules
 
 [LangChain Module][langchain-modules]에서 module을 확인할 수 있다.
+
+### FewShotPromptTemplate
+
+대답할 예제를 제공하는 template
 
 [nomadcoders-fullstack-gpt]: https://nomadcoders.co/fullstack-gpt
 [platform-openai]: https://platform.openai.com
