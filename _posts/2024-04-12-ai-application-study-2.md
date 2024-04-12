@@ -91,6 +91,8 @@ prompt = FewShotPromptTemplate(
 prompt.format(country="Brazil")
 ```
 
+## BaseExampleSelector
+
 `BaseExampleSelector`를 통해 특정 logic을 이용하여 example을 선택할 수 있다.
 
 아래 코드는 `BaseExampleSelector`를 상속한 `RandomExampleSelector` class를 통해 임의의 example을 선택한다.
