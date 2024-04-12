@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[AI] AI Application Study"
+title: "[AI] AI Application Study [1/n]"
 date: 2024-04-01 23:42 -0700
 categories: [AI, Study]
 tags: [AI, GPT, LangChain]
@@ -46,8 +46,10 @@ OPENAI_API_KEY="sk-xxxx"
 [link][openai-models]에서 `OpenAI`에서 지원하는 model 목록 확인할 수 있다.
 
 - Large Language Model (LLM): 언어를 이해하고 생성하는 데 사용되는 대규모 인공지능 모델. default로 `text-davinci-003`를 사용한다.
-  - [Deprecations][openai-deprecations]에 의하면 `text-davinci-003` model은 2024-01-04부로 지원이 중단되었다.
   - [Pricing][openai-pricing]를 참고하여 token 당 저렴한 모델을 설정하여 사용하면 된다.
+
+> [Deprecations][openai-deprecations]에 의하면 `text-davinci-003` model은 2024-01-04부로 지원이 중단되었다.
+> {: .prompt-danger }
 
 ```python
 from langchain.llms.openai import OpenAI
@@ -269,7 +271,164 @@ chef_chain의 output이 "recipe" key를 가진 dictionay의 value로 할당되�
 
 ### FewShotPromptTemplate
 
-대답할 예제를 제공하는 template
+대답할 예제를 제공하는 template으로서, `PromptTemplate`에 기반한 `example_template`을 입력해야 한다.
+
+`example_template`는 예제를 형식화하기 위해 사용한다.
+
+```python
+from langchain.chat_models import ChatOpenAI
+from langchain.prompts import PromptTemplate
+from langchain.prompts.few_shot import FewShotPromptTemplate
+from langchain.callbacks import StreamingStdOutCallbackHandler
+
+chat = ChatOpenAI(
+    temperature=0.1,
+    streaming=True, # Check the chatmodel response creation process
+    callbacks=[StreamingStdOutCallbackHandler()]
+)
+
+examples = [
+    {
+        "question": "What do you know about France?",
+        "answer": """
+        Here is what I know:
+        Capital: Paris
+        Language: French
+        Food: Wine and Cheese
+        Currency: Euro
+        """,
+    },
+    {
+        "question": "What do you know about Italy?",
+        "answer": """
+        I know this:
+        Capital: Rome
+        Language: Italian
+        Food: Pizza and Pasta
+        Currency: Euro
+        """,
+    },
+    {
+        "question": "What do you know about Greece?",
+        "answer": """
+        I know this:
+        Capital: Athens
+        Language: Greek
+        Food: Souvlaki and Feta Cheese
+        Currency: Euro
+        """,
+    },
+]
+
+example_template = """
+    Human: {question}
+    AI: {answer}
+"""
+
+example_prompt = PromptTemplate.from_template(example_template)
+
+prompt = FewShotPromptTemplate(
+    example_prompt=example_prompt,
+    examples=examples,
+    suffix="Human: What do you know about {country}?",
+    input_variables=["country"]
+)
+
+chain = prompt | chat
+
+chain.invoke({
+    "country": "Germany"
+})
+# AI:
+#         Here is what I know:
+#         Capital: Berlin
+#         Language: German
+#         Food: Bratwurst and Sauerkraut
+#         Currency: Euro
+```
+
+### FewShotChatMessagePromptTemplate
+
+`FewShotPromptTemplate`과 달리 `ChatPromptTemplate`에 기반한 `example_template`을 입력해야 한다.
+
+아래 예제에서 `ChatPromptTemplate`을 두 번 사용했다.
+
+```python
+from langchain.chat_models import ChatOpenAI
+from langchain.prompts import ChatPromptTemplate
+from langchain.prompts.few_shot import FewShotChatMessagePromptTemplate
+from langchain.callbacks import StreamingStdOutCallbackHandler
+
+chat = ChatOpenAI(
+    temperature=0.1,
+    streaming=True, # Check the chatmodel response creation process
+    callbacks=[StreamingStdOutCallbackHandler()]
+)
+
+examples = [
+    {
+        "country": "France",
+        "answer": """
+        Here is what I know:
+        Capital: Paris
+        Language: French
+        Food: Wine and Cheese
+        Currency: Euro
+        """,
+    },
+    {
+        "country": "Italy",
+        "answer": """
+        I know this:
+        Capital: Rome
+        Language: Italian
+        Food: Pizza and Pasta
+        Currency: Euro
+        """,
+    },
+    {
+        "country": "Greece",
+        "answer": """
+        I know this:
+        Capital: Athens
+        Language: Greek
+        Food: Souvlaki and Feta Cheese
+        Currency: Euro
+        """,
+    },
+]
+
+example_prompt = ChatPromptTemplate.from_messages(
+    [
+        ("human", "What do you know about {country}?"),
+        ("ai", "{answer}"),
+    ]
+)
+
+example_prompt = FewShotChatMessagePromptTemplate(
+    example_prompt=example_prompt,
+    examples=examples,
+)
+
+final_prompt = ChatPromptTemplate.from_messages(
+    [
+        ("system", "You are a geography expert, you give short answers."),
+        example_prompt,
+        ("human", "What do you know about {country}?"),
+    ]
+)
+
+chain = final_prompt | chat
+
+chain.invoke({
+    "country": "Germany"
+})
+# I know this:
+# Capital: Berlin
+# Language: German
+# Food: Bratwurst and Sauerkraut
+# Currency: Euro
+```
 
 [nomadcoders-fullstack-gpt]: https://nomadcoders.co/fullstack-gpt
 [platform-openai]: https://platform.openai.com
