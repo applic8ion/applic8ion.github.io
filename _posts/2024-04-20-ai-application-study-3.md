@@ -236,7 +236,97 @@ message를 추가할 때마다 history에 추가되지 않고, SystemMessage가 
 ## Memory on LLMChain
 
 `LLMChain`이란 `off-the-shelf chain`으로서 일반적 목적을 가지고 이미 만들어진 chain을 의미한다.
-(continue...)
+
+`verbose` option은 답변을 생성하는 동안 chain의 prompt를 확인할 수 있다.
+
+아래 code를 실행하면 마지막 question에 대해 답변하지 못한다.
+
+`memory.load_memory_variables({})`를 통해 memory를 확인해보면, 정상적으로 저장되는 것을 확인할 수 있으나, LLM은 memory의 prompt를 알지 못한다.
+
+```python
+from langchain.memory import ConversationSummaryBufferMemory
+from langchain.chat_models import ChatOpenAI
+from langchain.chains import LLMChain
+from langchain.prompts import PromptTemplate
+
+llm = ChatOpenAI(temperature=0.1)
+
+memory = ConversationSummaryBufferMemory(
+    llm=llm,
+    max_token_limit=80
+)
+
+chain = LLMChain(
+    llm=llm,
+    memory=memory,
+    prompt=PromptTemplate.from_template("{question}"),
+    verbose=True
+)
+
+chain.predict(question="My name is Troubleshooter")
+```
+
+```python
+chain.predict(question="I live in United States")
+```
+
+```python
+chain.predict(question="What is my name?")
+```
+
+위 문제를 해결하기 위해 이전 conversation을 template을 통해 추가한다.
+
+`ConversationSummaryBufferMemory` 함수가 template 내에 conversation을 자동으로 넣기 위해,
+
+`ConversationSummaryBufferMemory` 함수의 `memory_key`와 `template`의 conversation 저장 변수명을 동일하게 한다.
+
+```python
+from langchain.memory import ConversationSummaryBufferMemory
+from langchain.chat_models import ChatOpenAI
+from langchain.chains import LLMChain
+from langchain.prompts import PromptTemplate
+
+llm = ChatOpenAI(temperature=0.1)
+
+memory = ConversationSummaryBufferMemory(
+    llm=llm,
+    max_token_limit=120,
+    memory_key="chat_history"
+)
+
+template="""
+    You are a helpful AI talking to human.
+
+    {chat_history}
+    Human: {question}
+    You:
+"""
+
+chain = LLMChain(
+    llm=llm,
+    memory=memory,
+    prompt=PromptTemplate.from_template(template),
+    verbose=True
+)
+
+chain.predict(question="My name is Troubleshooter")
+```
+
+```python
+chain.predict(question="I live in United States")
+```
+
+```python
+chain.predict(question="What is my name?")
+```
+
+`vervose` option을 통해 conversation이 요약되어 추가된 template을 확인할 수 있다.
+
+## Chat Based Memory
+
+`memory.load_memory_variables({})`를 통해 text 형식으로 memory를 확인할 수 있는 반면, `Chat Based Memory`는 대화 기반 채팅으로 사용할 수 있게 한다.
+
+`return_message`는 text가 아닌 Human / AI / System message로 변경한다.
 
 ## References
 
