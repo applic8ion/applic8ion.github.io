@@ -45,6 +45,20 @@ $ bundle
 
 Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
 
+## Commands
+
+Run Dev Mode
+
+```console
+bundle exec jekyll serve
+```
+
+Create New Post
+
+```console
+bundle exec jekyll compose "My Post" --post
+```
+
 ## License
 
 This work is published under [MIT][mit] License.
