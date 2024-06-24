@@ -61,6 +61,8 @@ rustup update
 rustup self uninstall
 ```
 
+다음에 더 자세히 다루도록 하자.
+
 [rust]: https://www.rust-lang.org
 [python]: https://www.python.org
 [pypi]: https://pypi.org

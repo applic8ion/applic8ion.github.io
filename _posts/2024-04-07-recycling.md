@@ -3,7 +3,7 @@ layout: post
 title: "[US Life] Recycling"
 date: 2024-04-07 00:57 -0700
 categories: [United States, Life]
-tags: [US, Recycling]
+tags: [US, Recycling, Hopdoddy, Burger]
 image:
   path: /assets/img/2024-04-07-recycling/container.jpeg
 ---
