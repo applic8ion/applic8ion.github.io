@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[US Life] Yosemite National Park ViewPoint"
+title: "[US Life] Yosemite National Park Viewpoint"
 categories: [United States, Trip]
 tags: [US, Yosemite, National Park]
 date: 2024-08-05 09:02 -0700
@@ -15,35 +15,35 @@ Yosemite에서 직접 방문해보고 유명한 장소들을 소개한다. 순�
 ![Desktop View](/assets/img/2024-08-05-yosemite-viewpoint/tunnel-tree.jpg){: .shadow .rounded-10 w="500" }
 _Tunnel Tree_
 
-Yosemite National Park South Gate 바로 옆에 위치해 있다. 셔틀을 타면 [Big Trees Loop Trailhead](https://maps.app.goo.gl/JNnYzqncV7dwJiqn6?g_st=com.google.maps.preview.copy) 까지 이동하여 큰 나무로 이루어진 숲에서 산림욕을 즐길 수 있다. Grizzly Giant, California Tunnel Tree까지 산행 추천. Giant Sequoia까지는 너무 멀어서 여유가 있다면 가는 것을 추천한다. (미국에서 가장 큰 나무는 Sequoia National Park의 General Sherman Tree가 유명하다)
+Yosemite National Park South Gate 바로 옆에 위치해 있다. 셔틀을 타면 [Big Trees Loop Trailhead](https://maps.app.goo.gl/JNnYzqncV7dwJiqn6?g_st=com.google.maps.preview.copy) 까지 이동하여 큰 나무로 이루어진 숲에서 산림욕을 즐길 수 있다. 최소 Grizzly Giant, California Tunnel Tree까지 둘러보고 오는 것을 추천한다. Giant Sequoia까지는 너무 멀어서 여유가 있다면 가는 것을 추천한다. (미국에서 가장 큰 나무는 Sequoia National Park의 General Sherman Tree가 유명하다)
 
 # [Wawona Hotel](https://maps.app.goo.gl/7GHGV4puXQfnGzsg6?g_st=com.google.maps.preview.copy)
 
 ![Desktop View](/assets/img/2024-08-05-yosemite-viewpoint/wawona-hotel.jpg){: .shadow .rounded-10 h="500" }
 _Wawona Hotel_
 
-전통과 역사가 깊은 호텔. 일반 객실은 연결된 화장실 있는 방과 없는 방이 존재하며, 금액이 저렴한 편이다. ($140 정도) 독채도 있으나, 등급이 높을수록 가격이 크게 상승하고 예약하기 어렵다. 일반 객실의 경우 매우 낡고 방음이 잘되지 않지만, 침구류와 화장실 등 깔끔한 편이다.
+전통과 역사가 깊은 호텔. 일반 객실은 연결된 화장실 있는 방과 없는 방이 존재하며, 금액이 저렴한 편이다. 독채도 있으나, 등급이 높을수록 가격이 크게 상승하고 예약하기 어렵다. 일반 객실의 경우 매우 낡고 방음이 잘되지 않지만, 침구류와 화장실 등 깔끔한 편이다.
 
 # [Wawona Hotel & Co. General Store](https://maps.app.goo.gl/B4ikeGJ76Fjczap69?g_st=com.google.maps.preview.copy)
 
 ![Desktop View](/assets/img/2024-08-05-yosemite-viewpoint/general-store.jpg){: .shadow .rounded-10 h="500" }
 _General Store_
 
-친절하신 노부부가 운영하는 가게로 기념품, 식료품(샌드위치, 샐러드, 냉동식품) 등 다양한 물품을 판매하는 곳이다. 식비를 아끼기에 가장 적합한 곳이며, 전자렌지를 이용할 수 있다.
+친절한 노부부가 운영하는 가게로 기념품, 식료품(샌드위치, 샐러드, 냉동식품) 등 다양한 물품을 판매하는 곳이다. 식비를 아끼기에 가장 적합한 곳이며, 전자렌지를 이용할 수 있다.
 
 # [Glacier Point](https://maps.app.goo.gl/m9koFiW9V1gzt4497?g_st=com.google.maps.preview.copy)
 
 ![Desktop View](/assets/img/2024-08-05-yosemite-viewpoint/clacier-point.jpg){: .shadow .rounded-10 w="500" }
 _Glacier Point_
 
-Yosemite Village, Yosemite Fall, Vernell Fall, Nevada Fall 등 Yosemite의 주요 Viewpoint를 한 눈에 내려다 볼수 있는 곳. Half dome을 가장 잘 보이는 위치에서 관람할 수 있다. 이 곳에서 바로 Yosemite Village로 가는 경로가 없으므로, 경로에 포함시킬 지 고민이 되는 장소. 하지만 절대 후회하지 않는 곳이다.
+Yosemite Village, Yosemite Fall, Vernell Fall, Nevada Fall 등 Yosemite의 주요 Viewpoint를 한 눈에 내려다 볼수 있는 곳. Half dome을 가장 잘 보이는 위치에서 관람할 수 있다. 이 곳에서 바로 Yosemite Village로 가는 경로가 없으므로, 경로에 포함시킬 지 고민이 되는 곳이지만 절대 후회하지 않는 장소이다.
 
 # [Tunnel View](https://maps.app.goo.gl/YMAxHcAZ6wj2ztfi7?g_st=com.google.maps.preview.copy)
 
 ![Desktop View](/assets/img/2024-08-05-yosemite-viewpoint/tunnel-view.jpg){: .shadow .rounded-10 h="500" }
 _Tunnel View_
 
-왼쪽에 El Capitan, 오른쪽 폭포가 위치해 있고, 넓은 경치를 한 눈에 관람할 수 있다. 좁은 터널을 통과한 직후에 주차장이 위치해 있으며, 사람들이 항상 붐빘는 곳. Yosemite Village를 가기 전 필수로 지나가야 할 곳이다.
+왼쪽에 El Capitan, 오른쪽에 폭포가 위치해 있고, 넓은 경치를 한 눈에 관람할 수 있다. 좁은 터널을 통과한 직후, 오른쪽에도 주차장이 위치해 있으므로 무리해서 반대 방향에 주차하지 않도록 해야 한다. 사람들이 항상 붐빘는 곳이며, Yosemite Village를 가기 전 필수로 지나가야 할 곳이다.
 
 # [Bridalveil Fall](https://maps.app.goo.gl/d4kPP3Cs4HnNTdcd7?g_st=com.google.maps.preview.copy)
 
@@ -57,7 +57,7 @@ Tunnel View를 지나 Yosemite Village 쪽으로 가다보면 가장 먼저 보�
 ![Desktop View](/assets/img/2024-08-05-yosemite-viewpoint/yosemite-valley-chapel.jpg){: .shadow .rounded-10 h="500" }
 _Yosemite Valley Chapel_
 
-이 곳을 가다보면 길가에 주차된 많은 차들을 볼 수 있다. 이 곳에서 바로 Yosemite Valley Lodge 쪽으로 걸어갈 수도 있으며, 먼 거리에서 Yosemite Fall을 볼 수 있다. 넓은 잔디밭과 바위로 둘러쌓인 평화로운 경치를 관람할 수 있다.
+이 곳을 가다보면 길가에 주차된 많은 차들을 볼 수 있다. 이 곳에서 바로 Yosemite Valley Lodge 쪽으로 걸어갈 수도 있으며, Yosemite Fall의 전체적인 모습을 볼 수 있다. 넓은 잔디밭과 바위로 둘러쌓인 평화로운 경치를 관람할 수 있다.
 
 # [Yosemite Valley Welcome Center](https://maps.app.goo.gl/m9sy3WB2qYtMYQn2A?g_st=com.google.maps.preview.copy)
 
@@ -82,14 +82,14 @@ Yosemite에서 가장 추천하는 숙소. 컨테이너 형태지만, 화장실�
 ![Desktop View](/assets/img/2024-08-05-yosemite-viewpoint/yosemite-fall.jpg){: .shadow .rounded-10 w="500" }
 _Yosemite Fall_
 
-Yosemite에서 가장 유명한 폭포. Yosemite Valley Lodge에서 걸어서 편하게 다녀올 수 있다. Lower와 Upper가 존재하며, Upper는 많은 체력을 요구한다. 계절에 따라 폭포에서 떨어지는 물의 양이 다름
+Yosemite에서 가장 유명한 폭포. Yosemite Valley Lodge에서 걸어서 편하게 다녀올 수 있다. Lower와 Upper가 존재하며, Upper는 많은 체력을 요구한다. 계절에 따라 폭포에서 떨어지는 물의 양이 다르다.
 
 # [Mirror Lake](https://maps.app.goo.gl/5qCfUDA9sd621eg78?g_st=com.google.maps.preview.copy)
 
 ![Desktop View](/assets/img/2024-08-05-yosemite-viewpoint/mirror-lake.jpg){: .shadow .rounded-10 h="500" }
 _Mirror Lake_
 
-잔잔수하고 평화로운 호수. 주변 배경이 반사될 정도로 바람도 없고 조용한 편. 높은 지대는 아니지만, 이 곳까지 이동하는데 어느 정도 체력을 요구한다
+잔잔하고 평화로운 호수. 주변 배경이 반사될 정도로 바람도 없고 조용한 편. 높은 지대는 아니지만, trail 입구에서 호수까지 이동하는데 약 30분 정도 소요된다.
 
 # [Tenaya Lake](https://maps.app.goo.gl/2Kyz5L9AUt7od9Qh6?g_st=com.google.maps.preview.copy)
 
@@ -114,7 +114,13 @@ _Curry Village Pizza Deck_
 
 # [Vernell Fall](https://maps.app.goo.gl/A85mJw6KfH3vMvWk6?g_st=com.google.maps.preview.copy)
 
-![Desktop View](/assets/img/2024-08-05-yosemite-viewpoint/vernell-fall.jpg){: .shadow .rounded-10 w="500" }
-_Vernell Fall_
+![Desktop View](/assets/img/2024-08-05-yosemite-viewpoint/vernell-fall-1.jpg){: .shadow .rounded-10 w="500" }
+_Vernell Fall 1_
+
+![Desktop View](/assets/img/2024-08-05-yosemite-viewpoint/vernell-fall-2.jpg){: .shadow .rounded-10 w="500" }
+_Vernell Fall 2_
+
+![Desktop View](/assets/img/2024-08-05-yosemite-viewpoint/vernell-fall-3.jpg){: .shadow .rounded-10 h="500" }
+_Vernell Fall 3_
 
 Yosemite 여행에서 가장 힘들었던 곳. 폭포를 위에서 내려다보기 위한 경로가 매우 좁고 가르며, 바닥이 젖어 있기 때문에 위험한 편이다. Vernell Fall을 지나면, Nevada Fall까지 이어서 갈 수 있지만, 많은 체력이 필요하다. 떨어지는 폭포를 가장 가까이에서 관람할 수 있는 곳이다.
