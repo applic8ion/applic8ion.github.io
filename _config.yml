@@ -211,6 +211,6 @@ jekyll_compose:
       title:
       categories:
       tags:
-      date:
+      date: -0700
       image:
         path:
