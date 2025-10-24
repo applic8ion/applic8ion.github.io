@@ -16,7 +16,7 @@ docker를 활용하여 Node.js 설치없이 Remix 프로젝트를 생성하는 �
 
 #### Node.js 컨테이너 실행
 
-Docker 기반 환경 구축을 위해 [Colima VM을 실행](https://applic8ion.github.io/posts/docker-for-macos/#Execution)하고, 다음 명령어로 [Docker Hub](https://hub.docker.com)를 통해 Node.js 이미지를 pull한다.
+Docker 기반 환경 구축을 위해 [Colima VM을 실행](https://applic8ion.github.io/posts/docker-for-macos/#execution)하고, 다음 명령어로 [Docker Hub](https://hub.docker.com)를 통해 Node.js 이미지를 pull한다.
 
 ```bash
 # Node.js Docker 이미지 pull. 현 시점 기준 최신 버전
