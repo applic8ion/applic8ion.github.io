@@ -20,13 +20,16 @@ Docker 기반 환경 구축을 위해 [Colima VM을 실행](https://applic8ion.g
 
 ```bash
 # Node.js Docker 이미지 pull. 현 시점 기준 최신 버전
-docker pull node:22-alpine
+docker pull node:20-alpine
+
+# 로컬에 저장된 이미지 확인
+docker images
 
 docker run -it --rm \
   -v $PWD:/app \
   -w /app \
   -p 5173:5173 \
-  --entrypoint sh node:22-alpine
+  --entrypoint sh node:20-alpine
 
 # -it → 터미널과 연결(interactive + tty)
 # --rm → 종료되면 자동 삭제
