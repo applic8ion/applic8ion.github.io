@@ -2,7 +2,7 @@
 layout: post
 title: "[Python] virtualenv"
 date: 2024-04-02 00:36 -0700
-categories: [Python]
+categories: [Language, Python]
 tags: [Python, virtualenv]
 image:
   path: /assets/img/2024-04-02-python-virtualenv/python_virtualenv.png
@@ -18,7 +18,7 @@ image:
 
 ### macOS
 
-```text
+```bash
 python3 -m venv [env name]
 ```
 
@@ -28,13 +28,13 @@ python3 -m venv [env name]
 
 ### macOS
 
-```text
+```bash
 source [env name]/bin/activate
 ```
 
 ## Module Installation from requirements.txt
 
-```text
+```bash
 pip install -r requirements.txt
 ```
 

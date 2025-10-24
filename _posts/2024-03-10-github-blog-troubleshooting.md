@@ -12,7 +12,7 @@ tags: [GitHub, blog, troubleshooting]
 
 `https`가 아닌 url이 존재할 경우, `GitHub`의 `Actions` tab에서 다음 오류가 발생한다.
 
-```text
+```bash
 Run bundle exec htmlproofer _site \
 Running 3 checks (Scripts, Links, Images) in ["_site"] on *.html files...
 

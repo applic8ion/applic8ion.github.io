@@ -35,25 +35,25 @@ environment: macOS
 
 1. `terminal` app을 통해 아래 command를 실행하여 `homebrew`를 설치한다. 이미 `homebrew`를 설치한 경우 생략 가능하다.
 
-```text
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 2. `chruby`, `ruby-install`, `xz`를 설치한다.
 
-```text
+```bash
 brew install chruby ruby-install xz
 ```
 
 3. `ruby`를 설치한다. (오래 걸린다.)
 
-```text
+```bash
 ruby-install ruby 3.1.3
 ```
 
 4. `terminal` app의 default shell은 `bash` shell이다. 아래 command를 통해 `zshrc` shell로 변경한다. [Which Shell Am I Using? How Can I Switch?][whichshellamiusinghowcaniswitch] 참고.
 
-```text
+```bash
 echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
 echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
 echo "chruby ruby-3.1.3" >> ~/.zshrc # run 'chruby' to see actual version
@@ -61,13 +61,13 @@ echo "chruby ruby-3.1.3" >> ~/.zshrc # run 'chruby' to see actual version
 
 5. `terminal` app 재실행 후, `ruby` version이 3.1.3p185 (2022-11-24 revision 1a6b16756e) 또는 최신 버전인지 확인한다. {{ page.environment }}는 `bash` shell에 기본적으로 2.x version의 `ruby`가 설치되어 있다.
 
-```text
+```bash
 ruby -v
 ```
 
 6. `jekyll`을 설치한다.
 
-```text
+```bash
 gem install jekyll
 ```
 
@@ -75,7 +75,7 @@ gem install jekyll
 
 8. local file을 저장할 경로에서 다음 command를 실행한다. `[GITHUB_IO_REPOSITORY]`는 위에서 복사한 Clone HTTPS URL이다.
 
-```text
+```bash
 git clone [GITHUB_IO_REPOSITORY]
 ```
 
@@ -85,13 +85,13 @@ git clone [GITHUB_IO_REPOSITORY]
 
 11. `Gemfile` 내용을 기반으로 필요한 `gem`을 설치한다.
 
-```text
+```bash
 bundle install
 ```
 
 12. local server를 실행하고, web browser에서 [http://127.0.0.1:4000/](http://127.0.0.1:4000/)에 정상적으로 접속되는지 확인한다.
 
-```text
+```bash
 bundle exec jekyll serve
 ```
 

@@ -68,7 +68,7 @@ image:
 
 Lima(Linux virtual machine on macOS) 위에 Docker, 컨테이너 런타임 구동하여, macOS에서 네이티브 리눅스 컨테이너 환경 제공하는 경량 가상화 플랫폼
 
-### 구성요소
+### Components
 
 |     **구성요소**     | 설명                             | 역할                             |
 | :------------------: | -------------------------------- | -------------------------------- |
@@ -76,39 +76,40 @@ Lima(Linux virtual machine on macOS) 위에 Docker, 컨테이너 런타임 구�
 |  Container Runtime   | Docker 또는 containered          | 실제 컨테이너 실행시키는 엔진    |
 |      Colima CLI      | Colima 명령줄 인터페이스         | VM 생성, 시작, 중지 등 관리 수행 |
 
-### 설치
+### Installation
 
 #### Prerequisite
 
 Homebrew가 설치되어 있어야 한다. 설치되어 있지 않은 경우, 아래 명령어를 통해 설치한다.
 
-```text
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 #### 필수 패키지 설치
 
-```text
-brew install colima docker docker-compose
+```bash
+brew install colima docker docker-compose docker-buildx
 ```
 
-macOS는 리눅스 커널이 없기 때문에, colima가 리눅스 VM 생성 및 Docker Engine을 설치하는 역할을 하고, 여기서 docker, docker-compose는 colima와 연동되어 다음과 같은 역할을 한다.
+macOS는 리눅스 커널이 없기 때문에, colima가 리눅스 VM 생성 및 Docker Engine을 설치하는 역할을 하고, docker, docker-compose는 colima와 연동되어 다음과 같은 역할을 한다.
 
 - docker: Docker CLI 명령어
 - docker-compose: 다수 컨테이너 오케스트레이션 명령어(Compose v2)
+- docker-buildx: 크로스플랫폼 빌드 도구
 
-### 실행
+### Execution
 
 아래 명령어를 실행하여 Colima VM을 생성한다.
 
-```text
+```bash
 # VM의 프로파일명 docker, 4 CPU, 8 GB 메모리, 50 GB 스토리지로 생성
 colima start --profile docker --cpu 4 --memory 8 --disk 50
 ```
 
 위 명령어를 실행해서 생성된 파일 경로는 다음과 같다.
 
-```text
+```bash
 /Users/<사용자이름>/.colima/_lima/<프로파일명>/
 ```
 
@@ -123,13 +124,13 @@ colima start --profile docker --cpu 4 --memory 8 --disk 50
 
 - 현재 프로파일 설정 확인
 
-```text
+```bash
 colima list --verbose
 ```
 
 #### Docker 엔진 연결 확인
 
-```text
+```bash
 docker context ls
 # 별표(\*)가 생성된 프로파일에 있으면 연결 OK
 
@@ -141,11 +142,11 @@ docker version   # Server 섹션이 보여야 정상
 docker run hello-world
 ```
 
-### 주요 명령어
+### Main Commands
 
 #### Colima VM 중단
 
-```text
+```bash
 colima stop -p <프로파일명>
 ```
 
@@ -153,13 +154,13 @@ colima stop -p <프로파일명>
 
 - ⚠️ 이 명령은 해당 VM 내 모든 Docker 이미지, 컨테이너, 볼륨을 함께 삭제한다.
 
-```text
+```bash
 colima delete --profile <프로파일명>
 ```
 
 - 삭제 후 경로 확인:
 
-```text
+```bash
 ls ~/.colima/_lima/
 # <프로파일명> 폴더가 없어졌다면 완전히 삭제 완료
 ```

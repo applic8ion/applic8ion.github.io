@@ -36,7 +36,7 @@ image:
 
 `OpenAI` module은 해당 환경변수를 찾아서 사용한다.
 
-```text
+```bash
 OPENAI_API_KEY="sk-xxxx"
 ```
 

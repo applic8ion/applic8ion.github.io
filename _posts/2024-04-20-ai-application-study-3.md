@@ -5,7 +5,7 @@ date: 2024-04-20 22:16 -0700
 categories: [AI, Study]
 tags: [AI, GPT, LangChain]
 mermaid: true
-pin: true
+pin: false
 image:
   path: /assets/img/2024-04-01-ai-application-study/ai_parrot.JPG
 ---
