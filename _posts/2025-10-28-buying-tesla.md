@@ -91,3 +91,5 @@ _차량 인도 안내 메시지_
 - [ ] AliExpress, [Spigen](https://spigen.co.kr/product/list.html?cate_no=317) 등 악세서리 구매
 - [ ] 자동차 보험, 운전자 보험 가입
 - [ ] 전기차 보조금 서류 준비
+
+Test
