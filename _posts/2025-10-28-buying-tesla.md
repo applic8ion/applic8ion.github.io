@@ -15,17 +15,19 @@ Tesla Model Y Juniper 2025 구매기를 포스팅한다.
 5천만원 이하 준중형 이상 SUV를 고려했었고, 후보는 다음과 같다.
 
 - KIA EV3 (시승)
-  - 시승 후 소형 차량의 한계가 느껴졌다. 회생제동 미적응으로 멀미를 겪었다(적응하면 괜찮아진다고 한다).
+  - 시승 후 소형 차량의 내부 공간 부족의 한계가 느껴졌다. 회생제동 미적응으로 멀미를 겪었다(적응하면 괜찮아진다고 한다).
 - KIA Sportage (시승)
   - 준중형 SUV의 표준으로서 가장 적합하나, 당시 인기차종으로 프로모션이 거의 없고, 원하는 옵션에 하이브리드를 고려하면 4천 중반이다.
+- KIA EV5
+  - 관련 Youtube를 보면 이 가격이면 Tesla를 산다는 내용이 즐비하다. 중국에 먼저 출시한 모델로 일부 인테리어, 옵션이 변경되어 국내 출시되었는데, CATL NCM 배터리가 탑재되었음에도 가격이 높게 형성되어 출시되었다.
 - Volvo XC40 (시승)
   - 시승해 본 결과, 운전하는데 불편한 점은 없었으나, 차량 내부 트렁크와 2열 공간이 매우 협소하다. 2열 등받이는 거의 90도이고, 조절도 되지 않는다.
-- BMW X1 (미시승)
-  - 예산을 Max로 사용 시 구매 가능하나, 다른 BMW와 다르게 전륜, 승차감이 안좋다고 한다.
-- BMW X3 (미시승)
-  - 최근 페이스리프트로 인해 인기가 가장 많아 프로모션이 거의 없었다. 예산 상 반드시 중고로 구매해야 한다.
+- BMW X1
+  - 다른 BMW와 다르게 전륜, 승차감이 안좋다고 한다. 예산 상 중고를 구매해야 한다.
+- BMW X3
+  - 최근 페이스리프트로 인해 인기가 가장 많아 프로모션이 거의 없었다. 예산 상 오래된 연식과 마일리지를 가진 중고를 구매해야 한다.
 - Lexus NX300h (운행)
-  - 미국에서 아주 만족스럽게 탔기 때문에 친숙했고, 약 10만 km 차량을 중고 구매하여 약 2만 km를 운행하는 동안 고장이 한 번도 없었다. 예산 상 반드시 중고로 구매해야 한다.
+  - 미국에서 아주 만족스럽게 탔기 때문에 친숙했고, 약 10만 km 차량을 중고 구매하여 약 2만 km를 운행하는 동안 고장이 한 번도 없었다. 예산 상 오래된 연식과 마일리지를 가진 중고를 구매해야 한다.
 - **Tesla Model Y Juniper**
   - 이 금액에 표준 차량으로 잡혀 있다. 아직 `FSD (Full Self Driving)`는 지원되지 않지만 기본 옵션에 이 금액이면 Tesla 산다는 말이 괜히 나오는 것이 아니다.
   - `BMS_a079` 오류가 가장 큰 리스크이다. 현재(2025-10-28) [계속되는 테슬라 배터리 논란, 진짜 이유는 뭘까?](https://youtu.be/NWGkljJechw?si=HVFSFrWyHW9OXOCR) 영상에 의하면 Tesla도 해당 이슈에 대해 인지하고 있는 모양이다. 해당 오류는 2021년도에 파나소닉 배터리를 탑재한 테슬라에 집중적으로 발생하고 있다는데, Tesla Model Y Juniper의 경우 RWD는 중국 CATL사의 LFP 배터리를, AWD는 LG에너지솔루션의 NCM 배터리가 탑재되어, 발생 여부는 지켜봐야 하는 상황이다.
@@ -62,7 +64,7 @@ _설문조사 안내 메시지_
 
 카카오톡과 문자로 차량 인도 예약에 대한 안내가 온다. 직접 수령은 이케아 광명점에서만 가능하며, 직접 수령 시 `₩100,000` 탁송 시 `₩200,000` 비용이 청구된다.
 
-금요일 차량을 직접 수령 후 틴팅샵에 틴팅을 맡겨서 주말 간 타고다닐 생각으로 2025-11-21 직접 수령으로 예약했지만, 이는 짧은 생각이었다. 어차피 틴팅을 할 예정이라면, 바로 틴팅샵으로 탁송하여 틴팅샵에서 신차검수 패키지와 함께 진행하면 된다. 안타깝게도, 인도 방법을 한 번 결정하면 변경 불가하다는 내용이 4번에 쓰여 있다. Tesla Korea 고객센터에 문의하니 원칙적으로 불가능하나, 담당 어드바이저가 연락오면 그 때 문의해보라고 하였다.
+금요일 차량을 직접 수령 후 틴팅샵에 틴팅을 맡겨서 주말 간 타고다닐 생각으로 2025-11-21 직접 수령으로 예약했지만, 이는 짧은 생각이었다. 어차피 틴팅을 할 예정이라면, 바로 틴팅샵으로 탁송하여 틴팅샵에서 신차검수 패키지와 함께 진행하면 된다. 안타깝게도, 인도 방법을 한 번 결정하면 변경 불가하다는 내용이 4번에 쓰여 있다. Tesla Korea 고객센터에 문의하니 원칙적으로 불가능하나, 담당 어드바이저가 연락오면 그 때 문의해보라고 했다.
 
 ![Desktop View](/assets/img/2025-10-28-buying-tesla/delivery.png){: .shadow .rounded-10 w="500" }
 _차량 인도 안내 메시지_
@@ -85,7 +87,7 @@ _차량 인도 안내 메시지_
 
 - [ ] 하이패스 단말기 - 친환경차 할인 제공 여부 확인
 - [ ] 하이패스 단말기 연결용 OBD Conversion Adapter 구매
-- [ ] [어디로든 그린카드](https://www.lottecard.co.kr/app/LPBOHAA_V100.lc?bId=94054&vtCdKndC=P14744-A14744&utm_source=sa_google_sa&utm_medium=cpc&utm_campaign=pc_card_application&utm_content=2406_greencard_06&utm_term=) 발급 - 다른 카드도 다시 비교
+- [ ] [어디로든 그린카드](https://www.lottecard.co.kr/app/LPBOHAA_V100.lc?bId=94054&vtCdKndC=P14744-A14744&utm_source=sa_google_sa&utm_medium=cpc&utm_campaign=pc_card_application&utm_content=2406_greencard_06&utm_term=) 발급 - [삼성카드 iD PLUG-IN](https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1825), [신한카드 Everywhere](https://www.shinhancard.com/pconts/html/card/apply/credit/1219683_2207.html) 도 다시 비교
 - [ ] Turu 멤버십 신청
 - [ ] Tesla Shop - DC Combo Adapter, Sun shade, Lighting 구매
 - [ ] AliExpress, [Spigen](https://spigen.co.kr/product/list.html?cate_no=317) 등 악세서리 구매
