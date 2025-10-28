@@ -33,7 +33,7 @@ Tesla Model Y Juniper 2025 구매기를 포스팅한다.
 
 ## 계약 (2025-08-31)
 
-Tesla Model Y는 `₩5,000,000`의 계약금이 필요하다. [TKC 카페](https://cafe.naver.com/noljatravel)에서 롯데카드 [Las Vegas](https://www.lottecard.co.kr/app/LPBOHAA_V100.lc?bId=95327&vtCdKndC=P15584-A15584&utm_source=sa_google_sa&utm_medium=cpc&utm_campaign=pc_cashback_promotion&utm_content=DP_city_02&utm_term=) 추천글을 보고, 디지털로 즉시 발급받아 결제했다. 해당 카드는 실적 조건없이 건당 결제 금액에 따라 최대 2% 할인, 월 `₩100,000` 까지 제공한다. 그러므로 계약금 `₩5,000,000`을 결제하면 `₩100,000`을 한 번에 할인 받을 수 있다. 그 전에 롯데카드를 사용한 적이 없다면 토스 등 신규 카드발급 캐시백 16만원 정도를 받을 수 있다. 나중에 충전 결제 카드로 사용할 [어디로든 그린카드](https://www.lottecard.co.kr/app/LPBOHAA_V100.lc?bId=94054&vtCdKndC=P14744-A14744&utm_source=sa_google_sa&utm_medium=cpc&utm_campaign=pc_card_application&utm_content=2406_greencard_06&utm_term=)는 롯데카드를 사용한 적이 없더라도 캐시백 제공이 안되기 때문에 `Las Vegas`를 먼저 발급받고 `어디로든 그린카드`를 발급받는 것을 추천한다.
+Tesla Model Y는 `₩5,000,000`의 계약금이 필요하다. [TKC 카페](https://cafe.naver.com/noljatravel)에서 롯데카드 [Las Vegas](https://www.lottecard.co.kr/app/LPBOHAA_V100.lc?bId=95327&vtCdKndC=P15584-A15584&utm_source=sa_google_sa&utm_medium=cpc&utm_campaign=pc_cashback_promotion&utm_content=DP_city_02&utm_term=) 추천글을 보고, 디지털로 즉시 발급받아 결제했다. 해당 카드는 실적 조건없이 건당 결제 금액에 따라 최대 2% 할인, 월 `₩100,000` 까지 제공한다. 그러므로 계약금 `₩5,000,000`을 결제하면 `₩100,000`을 한 번에 할인 받을 수 있다. 그 전에 롯데카드를 사용한 적이 없다면 토스 등 신규 카드발급 캐시백 `₩160,000` 정도를 받을 수 있다. 나중에 충전 결제 카드로 사용할 [어디로든 그린카드](https://www.lottecard.co.kr/app/LPBOHAA_V100.lc?bId=94054&vtCdKndC=P14744-A14744&utm_source=sa_google_sa&utm_medium=cpc&utm_campaign=pc_card_application&utm_content=2406_greencard_06&utm_term=)는 롯데카드를 사용한 적이 없더라도 캐시백 제공이 안되기 때문에 `Las Vegas`를 먼저 발급받고 `어디로든 그린카드`를 발급받는 것을 추천한다.
 
 ![Desktop View](/assets/img/2025-10-28-buying-tesla/contract.png){: .shadow .rounded-10 w="500" }
 _계약 완료 시 화면_
@@ -91,5 +91,3 @@ _차량 인도 안내 메시지_
 - [ ] AliExpress, [Spigen](https://spigen.co.kr/product/list.html?cate_no=317) 등 악세서리 구매
 - [ ] 자동차 보험, 운전자 보험 가입
 - [ ] 전기차 보조금 서류 준비
-
-Test
