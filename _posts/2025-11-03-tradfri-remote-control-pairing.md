@@ -3,7 +3,7 @@ layout: post
 title: "[ST] TRADFRI 5-Button Remote Control Pairing"
 date: 2025-11-03 02:12 +0900
 categories: [IoT, ST]
-tags: [IoT, SmartThings, IKEA]
+tags: [IoT, IKEA, SmartThings, GoogleHome]
 image:
   path: /assets/img/2025-11-03-tradfri-remote-control-pairing/thumbnail.png
 ---

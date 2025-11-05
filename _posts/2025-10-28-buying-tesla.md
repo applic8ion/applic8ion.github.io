@@ -99,6 +99,7 @@ _차량 인도 안내 메시지_
 - [ ] [Model Y 프로젝션 라이트](https://shop.tesla.com/ko_kr/product/model-y-projection-lights) ₩50,000
 - [ ] [Model Y 사계절 리어 트렁크 + 시트백 라이너(품절)](https://shop.tesla.com/ko_kr/product/model-y-all-weather-rear-trunk-_-seatback-liner) ₩275,990
 - [ ] [Model 3/Y 키팝](https://shop.tesla.com/ko_kr/product/model-3_y-key-fob) ₩253,000
+- [ ] [테슬라 Hi-Pass](https://shop.tesla.com/ko_kr/product/hi-pass) ₩45,700
 
 #### AliExpress
 
@@ -126,7 +127,6 @@ _차량 인도 안내 메시지_
 
 ### 앞으로 준비할 것
 
-- [ ] 하이패스 단말기 - 친환경차 할인 제공 여부 확인
 - [ ] 하이패스 단말기 연결용 OBD Conversion Adapter 구매
 - [ ] [어디로든 그린카드](https://www.lottecard.co.kr/app/LPBOHAA_V100.lc?bId=94054&vtCdKndC=P14744-A14744&utm_source=sa_google_sa&utm_medium=cpc&utm_campaign=pc_card_application&utm_content=2406_greencard_06&utm_term=) 발급 - [삼성카드 iD PLUG-IN](https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1825), [신한카드 Everywhere](https://www.shinhancard.com/pconts/html/card/apply/credit/1219683_2207.html) 도 다시 비교
 - [ ] Turu 멤버십 신청
