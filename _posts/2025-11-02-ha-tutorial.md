@@ -38,11 +38,11 @@ docker run -d --name homeassistant --privileged --restart=unless-stopped -e TZ=K
 
 ## 기본 사용
 
-[http://localhost:8123](http://localhost:8123)에 접속한다.
+<a href="http://localhost:8123" data-proofer-ignore>http://localhost:8123</a>에 접속한다.
 
 [Onboarding Home Assistant](https://www.home-assistant.io/getting-started/onboarding/)를 참고하여 초기 설정을 완료한다.
 
-설정이 완료되면 [http://localhost:8123/onboarding.html](http://localhost:8123/onboarding.html) 접속이 불가한 상태가 되는데, 다시 [http://localhost:8123](http://localhost:8123)에 접속하면 로그인 화면이 표시되고, 로그인하면 `Dashboards`에 접근할 수 있다.
+설정이 완료되면 <a href="http://localhost:8123/onboarding.html" data-proofer-ignore>http://localhost:8123/onboarding.html</a> 접속이 불가한 상태가 되는데, 다시 <a href="http://localhost:8123" data-proofer-ignore>http://localhost:8123</a>에 접속하면 로그인 화면이 표시되고, 로그인하면 `Dashboards`에 접근할 수 있다.
 
 ### Home Assistant Application
 

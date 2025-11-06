@@ -88,6 +88,10 @@
           {% unless link_types == empty %}
             rel="{{ link_types }}"
           {% endunless %}
+
+          {% if url contains 'linkedin.com' %}
+            data-proofer-ignore
+          {% endif %}
         >
           <i class="{{ entry.icon }}"></i>
         </a>
