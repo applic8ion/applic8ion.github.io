@@ -20,7 +20,7 @@ image:
 - 커튼 레일: [AliExpress](https://ko.aliexpress.com/item/1005009258861607.html?spm=a2g0o.order_list.order_list_main.51.6579140f2r0iaQ&gatewayAdapt=glo2kor)
   - 반드시 모터 호환성을 확인 후 구매해야 한다.
   - 국내 업체 중 `윈테리어`, `마마바`에 해당 모터 호환 여부를 확인했으나, 불가하다는 답변을 받아 `AliExpress`에서 해당 제품을 선택했다.
-- 커튼: [릴리 린넨룩 속커튼 |바닐라|](https://elenaheim.com/shop/shopdetail.html?branduid=3383109)
+- 커튼: [릴리 린넨룩 속커튼 바닐라](https://elenaheim.com/shop/shopdetail.html?branduid=3383109)
   - 나비주름형 1폭(60cm)
   - 커튼길이: 220~240cm
   - 커튼 열리는 방식: 양개형(2장으로 나눠제작)
