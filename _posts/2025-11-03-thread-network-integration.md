@@ -12,9 +12,11 @@ image:
 
 ## Thread Network 통합
 
-Thread Network는 핸드폰 OS에 따라 특정 스마트홈 플랫폼의 Credential을 전송할 수 있다. Android의 경우 `Google`, iOS의 경우 `Apple` 플랫폼의 Credential을 전송할 수 있다. [Thread](https://www.home-assistant.io/integrations/thread/)에 설명되어 있다.
+`Thread Network`를 통합한다고 해서 모든 플랫폼이 통합 관리되는 것은 아니다. `Matter`를 지원하는 기기를 활용해야만 통합 관리가 가능하다.
 
-Thread Network 통합은 [스마트싱스와 구글 Nest : Thread 네트워크 통합 가이드](https://cafe.naver.com/stsmarthome/106690)를 참고했다.
+`Thread Network`는 핸드폰 OS에 따라 특정 스마트홈 플랫폼의 Credential을 전송할 수 있다. Android의 경우 `Google`, iOS의 경우 `Apple` 플랫폼의 Credential을 전송할 수 있다. [Thread](https://www.home-assistant.io/integrations/thread/)에 설명되어 있다.
+
+`Thread Network` 통합은 [스마트싱스와 구글 Nest : Thread 네트워크 통합 가이드](https://cafe.naver.com/stsmarthome/106690)를 참고했다.
 
 ### Ecosystem
 

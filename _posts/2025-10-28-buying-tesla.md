@@ -83,13 +83,27 @@ _차량 인도 안내 메시지_
 
 하이패스 카드를 돈주고 구매하는 경우가 많은데, 인터넷으로 자동 충전되는 카드를 무료로 신청할 수 있다. `고속도로 통행료+` 앱을 설치하고 회원가입 후 `ex-모바일 충전카드` 메뉴를 통해 신청할 수 있다. 자세한 내용은 [모바일카드 안내](https://hipass.co.kr/ExMobileCardInfo.do) 홈페이지에 나와있다.
 
-### 배우자 인감 제작 및 인감증명서
+## 어드바이저 연락 #1 (2025-11-04 14:56)
 
-청년 우대 보조금을 위해 배우자와 공동명의로 차량을 등록하려면 명의자의 인감과 인감증명서가 모두 필요하다. 배우자가 현재 없는 상황이므로 제작을 진행했다.
+해당 포스팅은 [[Car] Tesla 1차 서류 제출](https://applic8ion.github.io/posts/tesla-1st-documents-submission/)를 참고한다.
+
+## 1차 서류 제출 (2025-11-05 10:00)
+
+메일로 관련 서류 제출하였으며, 어드바이저로부터 전기차 보조금 신청 시 대표자를 확인하는 내용 외 이상은 없었다.
+전기차 보조금 지자체 확정은 지자체 별로 다르며, 보통 `3-5일` 소요된다고 했다.
+
+## 어드바이저 연락 #2 (2025-11-05 16:23)
+
+1차 서류를 제출 당일 오후에 어드바이저로부터 연락이 왔다.
+해당 포스팅은 [[Car] Tesla 2차 서류 제출](https://applic8ion.github.io/posts/tesla-2nd-documents-submission/)를 참고한다.
+
+## 2차 서류 제출 (2025-11-07 00:05)
+
+보험 가입에 오랜 시간이 소요되어 보험 가입 후, 메일로 관련 서류를 제출했다.
 
 ### 액세서리 구매
 
-모두 구매할 예정은 아니다.
+모두 구매할 예정은 아니므로 지속 업데이트 예정이며, 별도 포스팅에 구매 확정 품목과 리뷰 포스팅 예정이다.
 
 #### Tesla 공식
 
@@ -120,14 +134,8 @@ _차량 인도 안내 메시지_
 - [ ] [45W 급속 충전기 확장 도크 USB 션트 허브 지능형 도킹 스테이션 자동차 어댑터 전원 액세서리용](https://ko.aliexpress.com/item/1005009614406685.html?pdp_npi=4%40dis%21KRW%21₩%2057%2C300%21₩%2028%2C650%21%21%2139.11%2119.55%21%402140f53817618405114763988e7fde%2112000049658622431%21sh%21KR%21824866762%21X&spm=a2g0o.store_pc_allItems_or_groupList.new_all_items_2007550926733.1005009614406685&gatewayAdapt=glo2kor#nav-review) ₩28,650
 - [ ] [시트 레일 커버 프로텍터 리어 엔드 피스 뒷좌석 슬라이드 보호 안티킥 액세서리용 - For ALL M3 Y 4pcs](https://ko.aliexpress.com/item/1005009689386021.html?pdp_npi=4%40dis%21KRW%21₩%209%2C406%21₩%208%2C460%21%21%216.42%215.77%21%40214100f417618411019574709ee91c%2112000049868566039%21sh%21KR%21824866762%21X&spm=a2g0o.store_pc_allItems_or_groupList.new_all_items_2007550926733.1005009689386021&gatewayAdapt=glo2kor) ₩8,460
 
-#### [Spigen](https://spigen.co.kr/product/list.html?cate_no=317)
-
-- [ ] [앞좌석 디스플레이 저반사 지문방지 액정필름 글라스tR 이지핏AG](https://spigen.co.kr/product/detail.html?product_no=3055&cate_no=317) ₩39,900
-- [ ] [뒷좌석 스크린 보호필름 강화유리 글라스tR슬림AG](https://spigen.co.kr/product/detail.html?product_no=3056&cate_no=317) ₩34,900
-
 ### 앞으로 준비할 것
 
-- [ ] 하이패스 단말기 연결용 OBD Conversion Adapter 구매
 - [ ] [어디로든 그린카드](https://www.lottecard.co.kr/app/LPBOHAA_V100.lc?bId=94054&vtCdKndC=P14744-A14744&utm_source=sa_google_sa&utm_medium=cpc&utm_campaign=pc_card_application&utm_content=2406_greencard_06&utm_term=) 발급 - [삼성카드 iD PLUG-IN](https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1825), [신한카드 Everywhere](https://www.shinhancard.com/pconts/html/card/apply/credit/1219683_2207.html) 도 다시 비교
 - [ ] Turu 멤버십 신청
 - [ ] 액세서리 구매
