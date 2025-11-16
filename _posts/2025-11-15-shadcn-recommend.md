@@ -5,7 +5,7 @@ date: 2025-11-15 21:21 +0900
 categories: [WebDev, Shadcn]
 tags: [WebDev, Shadcn]
 image:
-  path:
+  path: /assets/img/2025-11-15-shadcn-recommend/thumbnail.png
 ---
 
 `Shadcn` 추천 UI를 포스팅한다.
