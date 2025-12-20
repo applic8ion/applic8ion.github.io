@@ -399,6 +399,10 @@ Tesla Korea
 
 </div>
 
+## 차량 인도 (2025-11-21)
+
+해당 포스팅은 [[Car] Tesla Delivery Day](/posts/vehicle-delivery/)를 참고한다.
+
 ## 액세서리 구매
 
 모두 구매할 예정은 아니므로 지속 업데이트 예정이며, 별도 포스팅에 구매 확정 품목과 리뷰 포스팅 예정이다.
