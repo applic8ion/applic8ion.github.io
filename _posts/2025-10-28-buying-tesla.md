@@ -403,11 +403,11 @@ Tesla Korea
 
 해당 포스팅은 [[Car] Tesla Delivery Day](/posts/vehicle-delivery/)를 참고한다.
 
-## 액세서리 구매
+## 액세서리 리뷰
 
-모두 구매할 예정은 아니므로 지속 업데이트 예정이며, 별도 포스팅에 구매 확정 품목과 리뷰 포스팅 예정이다.
+해당 포스팅은 [[Car] Tesla Accessories Reviews](/posts/tesla-accessories-reviews/)를 참고한다.
 
-### Tesla 공식
+### Tesla Shop
 
 - [x] [CCS 콤보 1 어댑터](https://shop.tesla.com/ko_kr/product/ccs-combo-1-adapter---south-korea) ₩375,000
 - [x] [Model Y 사계절 인테리어 라이너](https://shop.tesla.com/ko_kr/product/model-y-_-_-_) ₩275,990
@@ -415,30 +415,3 @@ Tesla Korea
 - [x] [Model Y 프로젝션 라이트](https://shop.tesla.com/ko_kr/product/model-y-projection-lights) ₩50,000
 - [ ] [Model Y 사계절 리어 트렁크 + 시트백 라이너(품절)](https://shop.tesla.com/ko_kr/product/model-y-all-weather-rear-trunk-_-seatback-liner) ₩275,990
 - [x] [테슬라 Hi-Pass](https://shop.tesla.com/ko_kr/product/hi-pass) ₩45,700
-
-### AliExpress
-
-- [x] [실리콘 보호 프레임 엣지 커버, 중앙 제어 디스플레이, 내비게이션 화면 보호대 - Black](https://ko.aliexpress.com/item/1005006997603789.html?spm=a2g0o.order_list.order_list_main.10.4744140fKqukZp&gatewayAdapt=glo2kor) $1.11
-- [x] [콘솔 무선 충전 실리콘 패드 커버 보호대 - White](https://ko.aliexpress.com/item/1005006435808419.html?spm=a2g0o.order_list.order_list_main.14.4744140fKqukZp&gatewayAdapt=glo2kor) $3.06
-- [x] [액셀러레이터 브레이크 페달 미끄럼 방지 풋레스트 커버 - Silver](https://ko.aliexpress.com/item/1005008190088133.html?spm=a2g0o.order_list.order_list_main.15.4744140fKqukZp&gatewayAdapt=glo2kor) $5.77
-- [ ] [플로킹 TPE 커버 매트 파티션 보드 보관 공간용 차량 트렁크 측면 보관함](https://ko.aliexpress.com/item/1005008824977984.html?spm=a2g0o.store_pc_promotion.promoteWysiwyg_1417892562.1005008824977984&gatewayAdapt=glo2kor) ₩32,217
-- [ ] [트렁크 매트 러기지 매트 TPE 방수 미끄럼 방지 세트 바닥 라이너 매트용 YZ - 9PCS Set](https://ko.aliexpress.com/item/1005008603038983.html?spm=a2g0o.cart.0.0.6f9d56baEaabq1&mp=1&pdp_npi=5%40dis%21USD%21USD%20140.35%21USD%2074.92%21%21USD%2073.42%21%21%21%402140f53817618391504656732e7fde%2112000048207166683%21ct%21KR%21824866762%21%211%210&gatewayAdapt=glo2kor) ₩112,152
-- [ ] [트렁크 매트 러기지 매트 TPE 방수 미끄럼 방지 세트 바닥 라이너 매트용 YZ - Seat Back Cushion](https://ko.aliexpress.com/item/1005008603038983.html?spm=a2g0o.cart.0.0.6f9d56baEaabq1&mp=1&pdp_npi=5%40dis%21USD%21USD%20140.35%21USD%2074.92%21%21USD%2073.42%21%21%21%402140f53817618391504656732e7fde%2112000048207166683%21ct%21KR%21824866762%21%211%210&gatewayAdapt=glo2kor) ₩25,501
-- [ ] [트렁크 테일게이트 보호 패드 트렁크 TPE 방진 방수 백플레이트 보호 패드용 - MY Juniper 2025](https://ko.aliexpress.com/item/1005009093154808.html?pdp_npi=4%40dis%21KRW%21₩%2034%2C385%21₩%2031%2C000%21%21%2123.47%2121.16%21%402102f0c917618407970267129e3bdf%2112000047887519289%21sh%21KR%21824866762%21X&spm=a2g0o.store_pc_allItems_or_groupList.new_all_items_2007550926733.1005009093154808&gatewayAdapt=glo2kor#nav-review) ₩31,000
-- [ ] [방충 전면 공조 방충망용 YZ 공기 흡입구 보호 커버 - Air Conditioning Intake Grille Screen](https://ko.aliexpress.com/item/1005008785013921.html?pdp_npi=4%40dis%21KRW%21₩%2016%2C863%21₩%2016%2C150%21%21%2111.51%2111.03%21%402140f53817618393522842201e7fde%2112000046674729388%21sh%21KR%21824866762%21X&spm=a2g0o.store_pc_allItems_or_groupList.new_all_items_2007550926733.1005008785013921&gatewayAdapt=glo2kor) ₩16,150
-- [ ] [방충 전면 공조 방충망용 YZ 공기 흡입구 보호 커버 - Split-type car grille bug screen (2 pieces)](https://ko.aliexpress.com/item/1005008785013921.html?pdp_npi=4%40dis%21KRW%21₩%2016%2C863%21₩%2016%2C150%21%21%2111.51%2111.03%21%402140f53817618393522842201e7fde%2112000046674729388%21sh%21KR%21824866762%21X&spm=a2g0o.store_pc_allItems_or_groupList.new_all_items_2007550926733.1005008785013921&gatewayAdapt=glo2kor) ₩21,550
-- [ ] [뒷좌석 하부 보호 매트용 YZ - MY Juniper TPU](https://ko.aliexpress.com/item/1005007941284693.html?pdp_npi=4%40dis%21KRW%21₩%2010%2C461%21₩%209%2C430%21%21%217.14%216.43%21%402140f53817618395869556220e7fde%2112000042960683952%21sh%21KR%21824866762%21X&spm=a2g0o.store_pc_allItems_or_groupList.new_all_items_2007550926733.1005007941284693&gatewayAdapt=glo2kor) ₩18,850
-- [ ] [4PCS 전면 후면 휠 머드 플랩 - MY Juniper 2025](https://ko.aliexpress.com/item/1005005766740325.html?pdp_npi=4%40dis%21KRW%21₩%2012%2C981%21₩%2012%2C250%21%21%218.86%218.36%21%402140f53817618397603371449e7fde%2112000034277413071%21sh%21KR%21824866762%21X&spm=a2g0o.store_pc_allItems_or_groupList.new_all_items_2007550926733.1005005766740325&gatewayAdapt=glo2kor#nav-review) ₩13,650
-- [ ] [OBD 어댑터 차량 충전 어댑터 OBD2 스플리터 충전기 - 48W PD QC3.0](https://ko.aliexpress.com/item/1005007038320732.html?spm=a2g0o.detail.similar_items.1.1946RkthRkthwM&utparam-url=scene%3Aimage_search%7Cquery_from%3Aapp_pdp_sold_out%7Cx_object_id%3A1005007038320732%7C_p_origin_prod%3A1005009991639385&algo_pvid=e0a34f6b-1fd4-4029-8239-c2682d45bb0d&algo_exp_id=e0a34f6b-1fd4-4029-8239-c2682d45bb0d&pdp_ext_f=%7B%22order%22%3A%2266%22%2C%22orig_sl_item_id%22%3A%221005007038320732%22%2C%22orig_item_id%22%3A%221005009991639385%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21KRW%2122200%2111100%21%21%21107.50%2153.75%21%4021010d9017618399630586170ed8b5%2112000039179757909%21sea%21KR%21824866762%21X%211%210%21n_tag%3A-29919%3Bd%3Ac39ff666%3Bm03_new_user%3A-29895#nav-review) ₩11,100
-- [ ] [센터 콘솔 HD 보호 스크린 Protecto 용 YZ 강화 유리 화면 보호기 - HD3pcs](https://ko.aliexpress.com/item/1005006310020635.html?pdp_npi=4%40dis%21KRW%21₩%207%2C897%21₩%207%2C470%21%21%215.39%215.09%21%402140f53817618401623542114e7fde%2112000036708770560%21sh%21KR%21824866762%21X&spm=a2g0o.store_pc_allItems_or_groupList.new_all_items_2007550926733.1005006310020635&gatewayAdapt=glo2kor#nav-review) ₩24,250
-- [ ] [도어 충격 흡수기 조립이 쉬운 자동차 도어 잠금 보호기 모조 탄소 섬유용](https://ko.aliexpress.com/item/1005007857406530.html?pdp_npi=4%40dis%21KRW%21₩%207%2C400%21₩%207%2C400%21%21%215.05%215.05%21%402140f53817618403883889000e7fde%2112000045660866799%21sh%21KR%21824866762%21X&spm=a2g0o.store_pc_allItems_or_groupList.new_all_items_2007550926733.1005007857406530&gatewayAdapt=glo2kor#nav-review) ₩7,400
-- [ ] [45W 급속 충전기 확장 도크 USB 션트 허브 지능형 도킹 스테이션 자동차 어댑터 전원 액세서리용](https://ko.aliexpress.com/item/1005009614406685.html?pdp_npi=4%40dis%21KRW%21₩%2057%2C300%21₩%2028%2C650%21%21%2139.11%2119.55%21%402140f53817618405114763988e7fde%2112000049658622431%21sh%21KR%21824866762%21X&spm=a2g0o.store_pc_allItems_or_groupList.new_all_items_2007550926733.1005009614406685&gatewayAdapt=glo2kor#nav-review) ₩28,650
-- [ ] [시트 레일 커버 프로텍터 리어 엔드 피스 뒷좌석 슬라이드 보호 안티킥 액세서리용 - For ALL M3 Y 4pcs](https://ko.aliexpress.com/item/1005009689386021.html?pdp_npi=4%40dis%21KRW%21₩%209%2C406%21₩%208%2C460%21%21%216.42%215.77%21%40214100f417618411019574709ee91c%2112000049868566039%21sh%21KR%21824866762%21X&spm=a2g0o.store_pc_allItems_or_groupList.new_all_items_2007550926733.1005009689386021&gatewayAdapt=glo2kor) ₩8,460
-
-## 앞으로 준비할 것
-
-- [x] 전기차 보조금 서류 준비
-- [x] 자동차 보험 가입
-- [x] 액세서리 구매
-- [ ] 블랙박스 구매
-- [ ] Turu 멤버십 신청

@@ -3,7 +3,7 @@ layout: post
 title: "[Car] Tesla Delivery Day"
 date: 2025-12-20 00:06 +0900
 categories: [Car, Tesla]
-tags: [Car, Tesla]
+tags: [Car, Tesla, Delivery]
 image:
   path: /assets/img/2025-12-20-vehicle-delivery/thumbnail.png
 ---
