@@ -356,7 +356,7 @@ _Rear Door Emergencies Safety Pull Rope_
 - 구매옵션: Model Y Juniper
 - 구매가격: US $4.28
 - 설치 난이도: ★★★
-- 추천 평점: ★★★
+- 추천 평점: ★★☆
 - 필수: X
 
 `Tesla Model Y`는 기본적으로 비상시 차량 후문을 강제로 열기 위한 로프가 있지만, 어린 아이가 열기 어려운 편이다.
@@ -367,11 +367,11 @@ _Rear Door Emergencies Safety Pull Rope_
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 2.0rem;">
   <div style="flex: 1; min-width: 250px; text-align: center;">
-    <img src="/assets/img/2025-12-25-tesla-accessories-reviews/rear-door-emergencies-safety-pull-rope-1.JPG" alt="When You Arrive" class="shadow rounded-10" style="width: 100%; max-width: 500px;">
+    <img src="/assets/img/2025-12-25-tesla-accessories-reviews/rear-door-emergencies-safety-pull-rope-1.jpg" alt="When You Arrive" class="shadow rounded-10" style="width: 100%; max-width: 500px;">
     <em>Rear Door Emergencies Safety Pull Rope-1</em>
   </div>
   <div style="flex: 1; min-width: 250px; text-align: center;">
-    <img src="/assets/img/2025-12-25-tesla-accessories-reviews/rear-door-emergencies-safety-pull-rope-2.JPG" alt="Phone Key" class="shadow rounded-10" style="width: 100%; max-width: 500px;">
+    <img src="/assets/img/2025-12-25-tesla-accessories-reviews/rear-door-emergencies-safety-pull-rope-2.jpg" alt="Phone Key" class="shadow rounded-10" style="width: 100%; max-width: 500px;">
     <em>Rear Door Emergencies Safety Pull Rope-2</em>
   </div>
 </div>
@@ -385,7 +385,7 @@ _Rear Seat Rail Cover Protector_
 - 구매옵션: For ALL M3 Y 4pcs, CHINA
 - 구매가격: US $4.91
 - 설치 난이도: ★★☆
-- 추천 평점: ★★☆
+- 추천 평점: ★☆☆
 - 필수: X
 
 동봉된 공구로 시트 고정 나사를 풀고 시트를 살짝 든 상태에서 고무를 끼운 후, 다시 나사를 고정하여 설치할 수 있다.
