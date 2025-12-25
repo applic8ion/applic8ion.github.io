@@ -334,7 +334,7 @@ _Rear Trunk Bumper Protector Guard_
 
 부직포가 많아서 위치를 잡기가 까다로운 편이었다.
 
-그리고 해당 제품과 [트렁크 테일 게이트]() 제품 사용 시 간섭으로 인해 트렁크 문이 닫히지가 않는 문제가 있었으며, 결국 `Yonzee`의 [트렁크 보호 커버]()로 갈아타기를 했다.
+그리고 해당 제품과 트렁크 테일 게이트 제품 사용 시 간섭으로 인해 트렁크 문이 닫히지가 않는 문제가 있었으며, 결국 `Yonzee`의 트렁크 보호 커버로 갈아타기를 했다.
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 2.0rem;">
   <div style="flex: 1; min-width: 250px; text-align: center;">
