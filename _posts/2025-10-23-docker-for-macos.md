@@ -76,9 +76,9 @@ Lima(Linux virtual machine on macOS) 위에 Docker, 컨테이너 런타임 구�
 |  Container Runtime   | Docker 또는 containered          | 실제 컨테이너 실행시키는 엔진    |
 |      Colima CLI      | Colima 명령줄 인터페이스         | VM 생성, 시작, 중지 등 관리 수행 |
 
-### Installation
+## Installation
 
-#### Prerequisite
+### Prerequisite
 
 Homebrew가 설치되어 있어야 한다. 설치되어 있지 않은 경우, 아래 명령어를 통해 설치한다.
 
@@ -86,7 +86,7 @@ Homebrew가 설치되어 있어야 한다. 설치되어 있지 않은 경우, �
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-#### 필수 패키지 설치
+### 필수 패키지 설치
 
 ```bash
 brew install colima docker docker-compose docker-buildx
@@ -113,7 +113,7 @@ colima start --profile docker --cpu 4 --memory 8 --disk 50
 /Users/<사용자이름>/.colima/_lima/<프로파일명>/
 ```
 
-#### 주요 파일
+### 주요 파일
 
 |      **파일명**       | 설명                                                                                                            |
 | :-------------------: | --------------------------------------------------------------------------------------------------------------- |
@@ -128,7 +128,7 @@ colima start --profile docker --cpu 4 --memory 8 --disk 50
 colima list --verbose
 ```
 
-#### Docker 엔진 연결 확인
+### Docker 엔진 연결 확인
 
 ```bash
 docker context ls
@@ -142,15 +142,49 @@ docker version   # Server 섹션이 보여야 정상
 docker run hello-world
 ```
 
-### Main Commands
+### 실행
 
-#### Colima VM 중단
+```bash
+colima start docker
+```
+
+### Service 등록
+
+macOS를 부팅할 때마다 Colima가 자동으로 실행되도록 등록한다.
+
+1. colima가 brew로 설치돼 있는지 확인
+
+   ```bash
+   brew list | grep colima
+   ```
+
+2. colima 서비스 등록
+
+   ```bash
+   brew services start colima
+   ```
+
+3. 상태 확인
+
+   ```bash
+   brew services list
+   ```
+
+4. 실제로 자동 시작되는지 확인하는 법
+
+   ```bash
+   colima status
+   ```
+
+## Main Commands
+
+### Colima VM 중단
 
 ```bash
 colima stop -p <프로파일명>
 ```
 
-#### Colima VM 삭제
+### Colima VM 삭제
 
 - ⚠️ 이 명령은 해당 VM 내 모든 Docker 이미지, 컨테이너, 볼륨을 함께 삭제한다.
 
