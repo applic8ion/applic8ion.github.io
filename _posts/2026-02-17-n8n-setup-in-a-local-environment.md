@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "[n8n] Setup n8n in local"
+title: "[n8n] Setup n8n in a Local Environment"
 date: 2026-02-17 11:17 +0900
 categories: [Automation]
-tags: [n8n, Automation]
+tags: [n8n, Automation, LLM, MCP, CluadeCode]
 image:
   path: /assets/img/2026-02-17-n8n-setup/thumbnail.png
 ---
@@ -41,6 +41,7 @@ POSTGRES_PASSWORD=your_postgre_password_here
 N8N_USER=admin
 N8N_PASSWORD=your_admin_password_here
 N8N_SECURE_COOKIE=false
+N8N_API_KEY=your_api_key_here
 WEBHOOK_URL=https://xxxx-xxxx-xxxx.trycloudflare.com
 ```
 
@@ -111,7 +112,106 @@ docker compose logs n8n 실행
 ## Check Connection
 
 브라우저를 통해 [http://localhost:5678](http://localhost:5678)에 접속한다.
-`.env` 파일에서 설정한 `N8N_USER`, `N8N_PASSWORD`로 로그인한다.
+
+## Connect to LLM
+
+다음 과정은 LLM을 통해 n8n을 제어할 수 있도록 설정하는 과정이다.
+
+### Install n8n-MCP
+
+LLM이 `MCP`를 통해 `n8n`과 통신할 수 있도록 `n8n-MCP`를 설치한다.
+
+[n8n-mcp](https://github.com/czlonkowski/n8n-mcp)를 참고하여 `n8n-MCP`를 설치한다.
+
+```bash
+# Run directly with npx (no installation needed!)
+npx n8n-mcp
+```
+
+`.mcp.json` 파일을 생성하고 아래와 같이 설정한다.
+
+`N8N_API_KEY`는 [n8n](http://localhost:5678/settings/api)에서 발급받은 API 키를 `.env` 파일에 설정한 후 사용한다.
+
+```json
+{
+  "mcpServers": {
+    "n8n-mcp": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "--init",
+        "-e",
+        "MCP_MODE=stdio",
+        "-e",
+        "LOG_LEVEL=error",
+        "-e",
+        "DISABLE_CONSOLE_OUTPUT=true",
+        "-e",
+        "N8N_API_URL=http://localhost:5678",
+        "-e",
+        "N8N_API_KEY=${N8N_API_KEY}",
+        "-e",
+        "WEBHOOK_SECURITY_MODE=moderate",
+        "ghcr.io/czlonkowski/n8n-mcp:latest"
+      ]
+    }
+  }
+}
+```
+
+아래 명령어를 통해 설치 및 실행 여부를 확인한다.
+
+```bash
+# Command in Claude Code
+/mcp
+```
+
+### Install n8n-Skills
+
+[n8n-skills](https://github.com/czlonkowski/n8n-skills)를 참고하여 `n8n-skills`를 설치한다.
+
+프로젝트 루트에 `.claude/skills` 디렉토리에 7개의 skill이 존재해야 한다.
+
+#### Method 1: Plugin Installation (Recommended)
+
+```bash
+# Install directly as a Claude Code plugin
+/plugin install czlonkowski/n8n-skills
+```
+
+#### Method 2: Manual Installation
+
+```bash
+# 1. Clone this repository
+git clone https://github.com/czlonkowski/n8n-skills.git
+
+# 2. Copy skills to your Claude Code skills directory
+cp -r n8n-skills/skills/* ~/.claude/skills/
+
+# 3. Reload Claude Code
+# Skills will activate automatically
+```
+
+아래 명령어를 통해 설치 여부를 확인한다.
+
+```bash
+# Command in Claude Code
+/skills
+```
+
+### Create SOP.md
+
+`SOP(Standard Operating Procedure)`는 n8n 워크플로우를 실행할 때 필요한 절차를 정리한 문서이다.
+
+[SOP.md 작성 - 워크플로우 설계도 만들기](https://github.com/citizendev9c/yt-assets/blob/main/automation/n8n/claude-code-workflow-builder-26-02-07/README.md#sopmd-작성---워크플로우-설계도-만들기)를 통해 SOP.md 파일을 생성한다.
+
+### Create CLAUDE.md
+
+`CLAUDE.md`는 LLM(`Claude Code`)이 n8n 워크플로우를 생성할 때 따라야 할 가이드 문서이다.
+
+[CLAUDE.md 설정 - 워크플로우 제작 가이드](https://github.com/citizendev9c/yt-assets/blob/main/automation/n8n/claude-code-workflow-builder-26-02-07/README.md#claudemd-설정---워크플로우-제작-가이드)를 통해 CLAUDE.md 파일을 생성한다.
 
 ## Commands
 
@@ -136,4 +236,8 @@ docker compose down -v
 
 - [셀프호스팅(Docker) CLI](https://wikidocs.net/290898)
 - [자동화 끝판왕 n8n, 이렇게 설치하면 평생 무료입니다! (웹훅 설정, 버전 업데이트 포함)](https://www.youtube.com/watch?v=DhuaKAW819s&list=PLmOOOSr4WNk1GTWZjRwgLsAK5xp6K1fs6)
+- [n8n-mcp](https://github.com/czlonkowski/n8n-mcp)
+- [n8n-skills](https://github.com/czlonkowski/n8n-skills)
+- [SOP.md 작성 - 워크플로우 설계도 만들기](https://github.com/citizendev9c/yt-assets/blob/main/automation/n8n/claude-code-workflow-builder-26-02-07/README.md#sopmd-작성---워크플로우-설계도-만들기)
+- [CLAUDE.md 설정 - 워크플로우 제작 가이드](https://github.com/citizendev9c/yt-assets/blob/main/automation/n8n/claude-code-workflow-builder-26-02-07/README.md#claudemd-설정---워크플로우-제작-가이드)
 - [https://github.com/applic8ion/n8n](https://github.com/applic8ion/n8n)
