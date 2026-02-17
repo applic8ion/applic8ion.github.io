@@ -76,7 +76,7 @@ Claude Code can be used with your Claude subscription or billed based on API usa
 
 ## auto-accept edits
 
-`shift + tab`을 눌러서
+`shift + tab`을 눌러서 권한을 설정할 수 있다.
 
 - **none**: 기본 권한 요청을 줌
 - **accept edits on**: 파일 읽기, 쓰기, 실행 권한을 줌 (중요한 작업은 권한 요청함)
