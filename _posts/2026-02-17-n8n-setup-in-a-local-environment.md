@@ -166,6 +166,13 @@ npx n8n-mcp
 ```bash
 # Command in Claude Code
 /mcp
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ Manage MCP servers
+ 1 server
+
+   Project MCPs (/Users/taewon/Documents/projects/n8n/scripts/.mcp.json (file does not exist))
+ ❯ n8n-mcp · ✔ connected
 ```
 
 ### Install n8n-Skills
@@ -199,6 +206,19 @@ cp -r n8n-skills/skills/* ~/.claude/skills/
 ```bash
 # Command in Claude Code
 /skills
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ Skills
+ 7 skills
+
+ Project skills (.claude/skills)
+ n8n-workflow-patterns · ~82 description tokens
+ n8n-validation-expert · ~80 description tokens
+ n8n-code-javascript · ~68 description tokens
+ n8n-mcp-tools-expert · ~68 description tokens
+ n8n-node-configuration · ~65 description tokens
+ n8n-expression-syntax · ~60 description tokens
+ n8n-code-python · ~52 description tokens
 ```
 
 ### Create SOP.md
